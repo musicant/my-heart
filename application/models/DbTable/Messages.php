@@ -12,7 +12,13 @@ class Application_Model_DbTable_Messages extends Zend_Db_Table_Abstract
         }
         return $row->toArray();
     }
-
+    public function updateMessage($id)
+    {
+        $data = array(
+            'status' => 1,
+        );
+        $this->update($data, 'id = '. (int)$id);
+    }
 
 }
 

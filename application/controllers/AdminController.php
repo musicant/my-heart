@@ -10,14 +10,15 @@ class AdminController extends Zend_Controller_Action
 
     public function indexAction()
     {
-
         $messages = new Application_Model_DbTable_Messages();
-       //echo 'asd';die;
-       
         $this->view->messages = $messages->getMessage();
-        // action body
     }
-
+    public function updateAction($id = null)
+    {
+        $messages = new Application_Model_DbTable_Messages();
+        $messages->updateMessage($id);
+        echo 'true';
+    }
 
 }
 

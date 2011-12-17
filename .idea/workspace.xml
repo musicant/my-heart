@@ -27,7 +27,7 @@
       <file leaf-file-name="Messages.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/DbTable/Messages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+            <state line="14" column="33" selection-start="347" selection-end="360" vertical-scroll-proportion="-9.52">
               <folding />
             </state>
           </provider>
@@ -36,7 +36,7 @@
       <file leaf-file-name="MessageSent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/DbTable/MessageSent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="6" column="4" selection-start="128" selection-end="128" vertical-scroll-proportion="-4.08">
               <folding />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="19" column="20" selection-start="488" selection-end="488" vertical-scroll-proportion="-12.92">
               <folding />
             </state>
           </provider>
@@ -60,19 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="92" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.04">
+            <state line="3" column="92" selection-start="175" selection-end="175" vertical-scroll-proportion="0.091561936">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/scripts/admin/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="476" selection-end="476" vertical-scroll-proportion="0.37269372">
+            <state line="23" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-12.84">
               <folding />
             </state>
           </provider>
@@ -95,9 +95,9 @@
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/application/models/DbTable/MessageSent.php" />
         <option value="$PROJECT_DIR$/application/models/DbTable/Message.php" />
-        <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/application/models/DbTable/Messages.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Messages.php" />
+        <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/admin/index.phtml" />
       </list>
     </option>
@@ -394,27 +394,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/MessageSent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="33" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
@@ -422,16 +401,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/MessageSent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="92" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.04">
+        <state line="6" column="4" selection-start="128" selection-end="128" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="347" selection-end="360" vertical-scroll-proportion="-9.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="488" selection-end="488" vertical-scroll-proportion="-12.92">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/scripts/admin/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="476" selection-end="476" vertical-scroll-proportion="0.37269372">
+        <state line="23" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-12.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="92" selection-start="175" selection-end="175" vertical-scroll-proportion="0.091561936">
           <folding />
         </state>
       </provider>
