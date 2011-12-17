@@ -13,11 +13,14 @@ class AdminController extends Zend_Controller_Action
         $messages = new Application_Model_DbTable_Messages();
         $this->view->messages = $messages->getMessage();
     }
-    public function updateAction($id = null)
+    public function updateAction()
     {
+        $request = $this->getRequest();
+        $id = $request->getParam('id');
         $messages = new Application_Model_DbTable_Messages();
         $messages->updateMessage($id);
-        echo 'true';
+        
+        echo $id.'true';die;
     }
 
 }

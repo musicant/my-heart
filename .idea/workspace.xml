@@ -45,7 +45,7 @@
       <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="488" selection-end="488" vertical-scroll-proportion="-12.92">
+            <state line="18" column="14" selection-start="411" selection-end="411" vertical-scroll-proportion="-12.24">
               <folding />
             </state>
           </provider>
@@ -60,20 +60,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="92" selection-start="175" selection-end="175" vertical-scroll-proportion="0.091561936">
+            <state line="3" column="0" selection-start="83" selection-end="148" vertical-scroll-proportion="-2.04">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/scripts/admin/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-12.84">
-              <folding />
+            <state line="29" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.6863469">
+              <folding>
+                <marker date="1324128202421" expanded="true" signature="1796:1824" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +97,8 @@
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/application/models/DbTable/MessageSent.php" />
         <option value="$PROJECT_DIR$/application/models/DbTable/Message.php" />
-        <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
         <option value="$PROJECT_DIR$/application/models/DbTable/Messages.php" />
+        <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/admin/index.phtml" />
       </list>
@@ -233,6 +235,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-heart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-heart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,24 +435,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="83" selection-end="148" vertical-scroll-proportion="-2.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="488" selection-end="488" vertical-scroll-proportion="-12.92">
+        <state line="18" column="14" selection-start="411" selection-end="411" vertical-scroll-proportion="-12.24">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/scripts/admin/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-12.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="92" selection-start="175" selection-end="175" vertical-scroll-proportion="0.091561936">
-          <folding />
+        <state line="29" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.6863469">
+          <folding>
+            <marker date="1324128202421" expanded="true" signature="1796:1824" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

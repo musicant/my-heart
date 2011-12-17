@@ -1,7 +1,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+<script type="text/javascript" src="/js/jquery.min.js" ></script>
+<script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
 <script type="text/javascript">
     VK.init(function() {
 
@@ -21,12 +22,12 @@
                     $.each(data, function(i, val) {    // обрабатываем полученные данные
             });
             */
-            alert("1");
              $.ajax({
-               	url:	 '/admin/update/id/'+id, //УРЛ, к которому мы обращаемся
+               	url:	 '/admin/update?id='+id, //УРЛ, к которому мы обращаемся
             	type:	 'GET', //тип: может быть GET или POST (о нём чуть ниже)
 	            success: function(response){ //success - функция, которая вызывается, когда запрос прошёл успешно и данные (data) получены
-	                    alert('Сервер вернул ответ: ' + response);
+	                  //  alert('Сервер вернул ответ: ' + response);
+                    $('#admin'+id).css('display','none');
 	            }
             });
 
@@ -42,7 +43,7 @@
 <div id="view-content">
     <table>
         <? foreach($this->messages as $messages):?>
-            <tr>
+            <tr id="admin<?=$messages['id']?>">
                 <td><?=$messages['message_sent_to']?> </td>
                 <td>
                     <a href="javascript:call(<? echo '\''.$messages['id'].'\',\''.$messages['message_sent_to'].'\',\''.$messages['message'].'\',\''.$messages['photo_id'].'\''?>);">Send</a>
