@@ -4,11 +4,6 @@
 
 <script type="text/javascript" src="/js/jquery.min.js" ></script>
 
-<script type="text/javascript">
-
-    jQuery('.')
-</script>
-
 <style type="text/css">
     .my-friend{
         display: inline-block;
@@ -18,20 +13,45 @@
     .my-friend-checked{
         border: 1px solid red;
     }
+
+    .hide-input{
+        overflow: hidden;
+        text-indent:-1000px;
+        display: inline-block;
+    }
+    .wrapper{
+        wight: 607px;
+        height: 500px;
+        overflow-y:scroll;
+    }
 </style>
 </head>
 <body>
+<div class="wrapper">
 <h3>Прийшли</h3>
 
 <form action="/index/post-card">
 <?php
 foreach($this->friendsData->response as $friend){
     $friendName = $friend->first_name.' '.$friend->last_name;
-    echo '<div class="my-friend" id="div-friend-id-'.$friend->uid.'"><img src="'.$friend->photo.'" alt="'.$friendName.'" title="'.$friendName.'">
-    <input type="radio" name="friend[]" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'">
+    echo '<div class="my-friend" id="div-friend-id-'.$friend->uid.'">
+    <label for="friend-id-'.$friend->uid.'">
+    <img src="'.$friend->photo.'" alt="'.$friendName.'" title="'.$friendName.'">
+    </label>
+    <div class="hide-input">
+    <input type="radio" name="friend[]" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'" class="target">
+    </div>
     </div>';
 }
 ?>
+    <input type="submit" name="sent" value="Отправить">
 </form>
+<script type="text/javascript">
+jQuery('.target').change(function(){
+    jQuery('.my-friend').removeClass('my-friend-checked');
+    jQuery('#div-friend-id-'+jQuery(this).val()).addClass('my-friend-checked');
+})
+</script>
+</div>
 </body>
 </html>
