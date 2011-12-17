@@ -2,8 +2,36 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
+<script type="text/javascript" src="/js/jquery.min.js" ></script>
+
+<script type="text/javascript">
+
+    jQuery('.')
+</script>
+
+<style type="text/css">
+    .my-friend{
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .my-friend-checked{
+        border: 1px solid red;
+    }
+</style>
 </head>
 <body>
-Прийшли
+<h3>Прийшли</h3>
+
+<form action="/index/post-card">
+<?php
+foreach($this->friendsData->response as $friend){
+    $friendName = $friend->first_name.' '.$friend->last_name;
+    echo '<div class="my-friend" id="div-friend-id-'.$friend->uid.'"><img src="'.$friend->photo.'" alt="'.$friendName.'" title="'.$friendName.'">
+    <input type="radio" name="friend[]" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'">
+    </div>';
+}
+?>
+</form>
 </body>
 </html>
