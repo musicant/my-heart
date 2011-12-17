@@ -39,7 +39,7 @@ foreach($this->friendsData->response as $friend){
     <img src="'.$friend->photo.'" alt="'.$friendName.'" title="'.$friendName.'">
     </label>
     <div class="hide-input">
-    <input type="radio" name="friend[]" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'" class="target">
+    <input type="radio" name="friend" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'" class="target">
     </div>
     </div>';
 }

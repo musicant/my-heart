@@ -34,10 +34,22 @@ class IndexController extends Zend_Controller_Action
         $VKParams = new Zend_Session_Namespace('testSpace');
         $currentUserId = $VKParams->requestParams['user_id'];
 
+        $ImagesTable = new Application_Model_DbTable_Images();
+        $images = $ImagesTable->fetchAll()->toArray();
+
         $request = $this->getRequest();
-        $myFriendId = $request->getParam('my-friend');
+        $myFriendId = $request->getParam('friend');
+
+        $this->view->images = $images;
         $this->view->myFriendId = $myFriendId;
         $this->view->currentUserId = $currentUserId;
+    }
+
+    public function congratulationAction(){
+        $request = $this->getRequest();
+        
+        print_r($request->getParams());
+        die();
     }
 
 }

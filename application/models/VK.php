@@ -58,11 +58,19 @@ class Application_Model_VK
     }
 
     public function getFriendsList($currentUserId){
-        $friendIdsJSON = Application_Model_VK::makeVKRequest("friends.get",array('uid'=>$currentUserId, 'format'=>'json'));
+        $friendIdsJSON = Application_Model_VK::makeVKRequest("friends.get",array('uid'=>$currentUserId,'count'=>10, 'format'=>'json'));
         $FriendIds = json_decode($friendIdsJSON);
         $friendsDataJSON = Application_Model_VK::makeVKRequest("getProfiles",array('uids'=>implode(',',$FriendIds->response),'fields'=>"uid,first_name,last_name,photo", 'format'=>'json'));
         $FriendsData = json_decode($friendsDataJSON);
         return $FriendsData;
+    }
+
+    //TODO: we use this method for button in admin panel
+    public function getPhotos(){
+        $userId = '5701489';
+        $albumId = '145745462';
+        $photosJSON = Application_Model_VK::makeVKRequest("photos.get",array('uid'=>$userId, 'aid'=>$albumId, 'format'=>'json'));
+        return json_decode($photosJSON);
     }
 
 }
