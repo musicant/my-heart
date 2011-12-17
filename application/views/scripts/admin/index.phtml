@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script type="text/javascript" src="/js/jquery.min.js" ></script>
+<script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+<script type="text/javascript">
+    VK.init(function() {
+
+     // API initialization succeeded
+     // Your code here
+    });
+    function call(id,wall_id,message,photo_id)
+    {
+
+	    VK.api("wall.savePost", {"wall_id":wall_id,"photo_id":photo_id,"message": message,"test_mode": 1},function(data){
+        //            alert(data.response.post_hash);
+			VK.callMethod("saveWallPost", data.response.post_hash);
+            /*$.ajax({
+                url: '/ajax/example.html',             // указываем URL и
+                dataType : "json",                     // тип загружаемых данных
+                success: function (data, textStatus) { // вешаем свой обработчик на функцию success
+                    $.each(data, function(i, val) {    // обрабатываем полученные данные
+            });
+            */
+             $.ajax({
+               	url:	 '/admin/update?id='+id, //УРЛ, к которому мы обращаемся
+            	type:	 'GET', //тип: может быть GET или POST (о нём чуть ниже)
+	            success: function(response){ //success - функция, которая вызывается, когда запрос прошёл успешно и данные (data) получены
+	                  //  alert('Сервер вернул ответ: ' + response);
+                    $('#admin'+id).css('display','none');
+	            }
+            });
+
+        });
+
+
+    }
+
+  </script>
+</head>
+<body>
+<br /><br />
+<div id="view-content">
+    <table>
+        <? foreach($this->messages as $messages):?>
+            <tr id="admin<?=$messages['id']?>">
+                <td><?=$messages['message_sent_to']?> </td>
+                <td>
+                    <a href="javascript:call(<? echo '\''.$messages['id'].'\',\''.$messages['message_sent_to'].'\',\''.$messages['message'].'\',\''.$messages['photo_id'].'\''?>);">Send</a>
+                </td>
+            </tr>
+        <? endforeach;?>
+        </table>
+</div>
+</body>
+</html>
