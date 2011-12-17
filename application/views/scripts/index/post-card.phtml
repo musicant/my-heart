@@ -34,6 +34,7 @@
     <input type="hidden" name="friend-id" value="<?php echo $this->myFriendId ?>" />
 
 <?php foreach ($this->images as $image) {
+    
     echo '<div class="my-post-card" id="div-post-card-id-'.$image['photo_id'].'">
     <label for="post-card-id-'.$image['photo_id'].'">
     <img src="'.$image['src'].'" alt="Pid" title="pid">
