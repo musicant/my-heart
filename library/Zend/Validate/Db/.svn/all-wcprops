@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Db
+END
+RecordExists.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Db/RecordExists.php
+END
+NoRecordExists.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Db/NoRecordExists.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Db/Abstract.php
+END

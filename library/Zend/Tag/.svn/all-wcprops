@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tag
+END
+Taggable.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tag/Taggable.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tag/Exception.php
+END
+ItemList.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tag/ItemList.php
+END
+Item.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tag/Item.php
+END
+Cloud.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tag/Cloud.php
+END

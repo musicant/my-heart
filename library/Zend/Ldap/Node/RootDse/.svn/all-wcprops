@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Node/RootDse
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Node/RootDse/ActiveDirectory.php
+END
+eDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Node/RootDse/eDirectory.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Node/RootDse/OpenLdap.php
+END

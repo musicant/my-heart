@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client
+END
+Console.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Console.php
+END
+Storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Storage.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Exception.php
+END
+Manifest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Manifest.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Request.php
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Response.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Abstract.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Framework/Client/Config.php
+END

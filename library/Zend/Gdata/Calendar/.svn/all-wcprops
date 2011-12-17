@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Calendar
+END
+EventEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Calendar/EventEntry.php
+END
+EventFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Calendar/EventFeed.php
+END
+ListFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Calendar/ListFeed.php
+END
+EventQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Calendar/EventQuery.php
+END
+ListEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Calendar/ListEntry.php
+END

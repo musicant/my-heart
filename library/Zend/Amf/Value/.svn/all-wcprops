@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Amf/Value
+END
+MessageBody.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Amf/Value/MessageBody.php
+END
+ByteArray.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Amf/Value/ByteArray.php
+END
+TraitsInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Amf/Value/TraitsInfo.php
+END
+MessageHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Amf/Value/MessageHeader.php
+END

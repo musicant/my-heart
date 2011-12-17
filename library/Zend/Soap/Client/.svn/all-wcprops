@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Soap/Client
+END
+Local.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Soap/Client/Local.php
+END
+Common.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Soap/Client/Common.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Soap/Client/Exception.php
+END
+DotNet.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Soap/Client/DotNet.php
+END

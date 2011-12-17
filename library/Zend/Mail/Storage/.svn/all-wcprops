@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage
+END
+Maildir.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Maildir.php
+END
+Folder.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Folder.php
+END
+Mbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Mbox.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Exception.php
+END
+Pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Pop3.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Abstract.php
+END
+Imap.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Storage/Imap.php
+END

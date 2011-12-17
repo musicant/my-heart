@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate
+END
+Isbn.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Isbn.php
+END
+StringLength.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/StringLength.php
+END
+EmailAddress.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/EmailAddress.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Interface.php
+END
+NotEmpty.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/NotEmpty.php
+END
+LessThan.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/LessThan.php
+END
+Alnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Alnum.php
+END
+GreaterThan.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/GreaterThan.php
+END
+Hex.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Hex.php
+END
+Float.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Float.php
+END
+Alpha.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Alpha.php
+END
+Barcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Barcode.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Abstract.php
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Callback.php
+END
+Ccnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Ccnum.php
+END
+Iban.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Iban.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Digits.php
+END
+Ip.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Ip.php
+END
+Regex.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Regex.php
+END
+Between.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Between.php
+END
+CreditCard.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/CreditCard.php
+END
+PostCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/PostCode.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Date.php
+END
+Int.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Int.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Exception.php
+END
+Hostname.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Hostname.php
+END
+InArray.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/InArray.php
+END
+Identical.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate/Identical.php
+END

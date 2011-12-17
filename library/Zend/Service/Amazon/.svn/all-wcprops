@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon
+END
+CustomerReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/CustomerReview.php
+END
+Authentication.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Authentication.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Image.php
+END
+Offer.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Offer.php
+END
+EditorialReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/EditorialReview.php
+END
+S3.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/S3.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Abstract.php
+END
+SimilarProduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/SimilarProduct.php
+END
+ResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/ResultSet.php
+END
+OfferSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/OfferSet.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Query.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Exception.php
+END
+SimpleDb.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/SimpleDb.php
+END
+Accessories.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Accessories.php
+END
+ListmaniaList.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/ListmaniaList.php
+END
+Item.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Item.php
+END
+Ec2.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Ec2.php
+END
+Sqs.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/Sqs.php
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl
+END
+ODGBaseUserService.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/ODGBaseUserService.xsd
+END
+VoiceButlerService.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/VoiceButlerService.xsd
+END
+IPLocation.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/IPLocation.wsdl
+END
+TokenService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/TokenService.wsdl
+END
+SmsService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/SmsService.wsdl
+END
+VoiceButlerService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/VoiceButlerService.wsdl
+END
+IPLocation.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/IPLocation.xsd
+END
+SmsValidationUserService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/SmsValidationUserService.wsdl
+END
+ODGBaseUserService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/ODGBaseUserService.wsdl
+END
+ccsPort.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/ccsPort.wsdl
+END
+localsearch.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/localsearch.xsd
+END
+localsearch.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/localsearch.wsdl
+END
+ccsPort.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Wsdl/ccsPort.xsd
+END

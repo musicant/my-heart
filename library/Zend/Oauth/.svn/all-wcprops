@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth
+END
+Consumer.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth/Consumer.php
+END
+Http.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth/Http.php
+END
+Token.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth/Token.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth/Client.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth/Exception.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth/Config.php
+END

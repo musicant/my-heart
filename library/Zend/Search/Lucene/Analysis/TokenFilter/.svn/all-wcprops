@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/TokenFilter
+END
+StopWords.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/TokenFilter/StopWords.php
+END
+ShortWords.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/TokenFilter/ShortWords.php
+END
+LowerCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/TokenFilter/LowerCase.php
+END
+LowerCaseUtf8.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/TokenFilter/LowerCaseUtf8.php
+END

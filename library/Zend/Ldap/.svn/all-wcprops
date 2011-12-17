@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Filter.php
+END
+Dn.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Dn.php
+END
+Attribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Attribute.php
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Collection.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Exception.php
+END
+Converter.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Converter.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap/Node.php
+END

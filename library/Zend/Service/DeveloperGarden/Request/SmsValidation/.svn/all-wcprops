@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/SmsValidation
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/SmsValidation/Validate.php
+END
+SendValidationKeyword.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/SmsValidation/SendValidationKeyword.php
+END
+Invalidate.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/SmsValidation/Invalidate.php
+END
+GetValidatedNumbers.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/SmsValidation/GetValidatedNumbers.php
+END

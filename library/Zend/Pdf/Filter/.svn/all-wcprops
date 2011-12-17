@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Filter
+END
+Compression.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Filter/Compression.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Filter/Interface.php
+END
+AsciiHex.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Filter/AsciiHex.php
+END
+Ascii85.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Filter/Ascii85.php
+END
+RunLength.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Filter/RunLength.php
+END

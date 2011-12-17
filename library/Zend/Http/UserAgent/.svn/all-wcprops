@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent
+END
+Device.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Device.php
+END
+Console.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Console.php
+END
+AbstractDevice.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/AbstractDevice.php
+END
+Storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Storage.php
+END
+Desktop.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Desktop.php
+END
+Email.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Email.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Feed.php
+END
+Mobile.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Mobile.php
+END
+Offline.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Offline.php
+END
+Bot.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Bot.php
+END
+Spam.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Spam.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Text.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Exception.php
+END
+Probe.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Probe.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Validator.php
+END
+Checker.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Http/UserAgent/Checker.php
+END

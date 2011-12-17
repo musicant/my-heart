@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Project/Context/Filesystem
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Project/Context/Filesystem/File.php
+END
+Directory.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Project/Context/Filesystem/Directory.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Tool/Project/Context/Filesystem/Abstract.php
+END

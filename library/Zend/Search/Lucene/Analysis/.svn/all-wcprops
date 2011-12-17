@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis
+END
+Analyzer.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Analyzer.php
+END
+Token.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Token.php
+END
+TokenFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/TokenFilter.php
+END

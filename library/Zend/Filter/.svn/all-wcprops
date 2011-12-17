@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter
+END
+StringToUpper.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/StringToUpper.php
+END
+StripNewlines.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/StripNewlines.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Interface.php
+END
+Alnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Alnum.php
+END
+BaseName.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/BaseName.php
+END
+Alpha.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Alpha.php
+END
+Compress.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Compress.php
+END
+RealPath.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/RealPath.php
+END
+Decompress.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Decompress.php
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Callback.php
+END
+Encrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Encrypt.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Digits.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Null.php
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Boolean.php
+END
+NormalizedToLocalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/NormalizedToLocalized.php
+END
+Input.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Input.php
+END
+HtmlEntities.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/HtmlEntities.php
+END
+LocalizedToNormalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/LocalizedToNormalized.php
+END
+Decrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Decrypt.php
+END
+Dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Dir.php
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Inflector.php
+END
+Int.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Int.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/Exception.php
+END
+PregReplace.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/PregReplace.php
+END
+StripTags.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/StripTags.php
+END
+StringTrim.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/StringTrim.php
+END
+StringToLower.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter/StringToLower.php
+END

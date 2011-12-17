@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup/Renderer/Html
+END
+Code.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup/Renderer/Html/Code.php
+END
+HtmlAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup/Renderer/Html/HtmlAbstract.php
+END
+List.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup/Renderer/Html/List.php
+END
+Url.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup/Renderer/Html/Url.php
+END
+Img.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup/Renderer/Html/Img.php
+END

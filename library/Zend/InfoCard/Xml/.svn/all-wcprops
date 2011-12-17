@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml
+END
+EncryptedKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/EncryptedKey.php
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/Element.php
+END
+KeyInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/KeyInfo.php
+END
+EncryptedData.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/EncryptedData.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/Exception.php
+END
+Security.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/Security.php
+END
+Assertion.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/Assertion.php
+END
+SecurityTokenReference.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard/Xml/SecurityTokenReference.php
+END

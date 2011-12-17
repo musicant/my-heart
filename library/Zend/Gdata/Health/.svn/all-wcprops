@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Health
+END
+ProfileFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Health/ProfileFeed.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Health/Query.php
+END
+ProfileEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Health/ProfileEntry.php
+END
+ProfileListEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Health/ProfileListEntry.php
+END
+ProfileListFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Health/ProfileListFeed.php
+END

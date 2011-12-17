@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Color
+END
+GrayScale.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Color/GrayScale.php
+END
+Html.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Color/Html.php
+END
+Cmyk.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Color/Cmyk.php
+END
+Rgb.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Color/Rgb.php
+END

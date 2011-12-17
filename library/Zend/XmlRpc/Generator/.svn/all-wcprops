@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/XmlRpc/Generator
+END
+XmlWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/XmlRpc/Generator/XmlWriter.php
+END
+DomDocument.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/XmlRpc/Generator/DomDocument.php
+END
+GeneratorAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/XmlRpc/Generator/GeneratorAbstract.php
+END

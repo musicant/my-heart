@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cache
+END
+Manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cache/Manager.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cache/Exception.php
+END
+Core.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cache/Core.php
+END
+Backend.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cache/Backend.php
+END

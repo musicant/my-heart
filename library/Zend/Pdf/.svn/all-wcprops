@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf
+END
+Action.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Action.php
+END
+Canvas.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Canvas.php
+END
+Cmap.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Cmap.php
+END
+FileParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/FileParser.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Image.php
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Element.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Parser.php
+END
+FileParserDataSource.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/FileParserDataSource.php
+END
+Outline.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Outline.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Color.php
+END
+NameTree.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/NameTree.php
+END
+UpdateInfoContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/UpdateInfoContainer.php
+END
+ElementFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/ElementFactory.php
+END
+Resource.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Resource.php
+END
+Destination.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Font.php
+END
+Annotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Annotation.php
+END
+Page.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Page.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Exception.php
+END
+StringParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/StringParser.php
+END
+Style.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Style.php
+END
+RecursivelyIteratableObjectsContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/RecursivelyIteratableObjectsContainer.php
+END
+Target.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Target.php
+END
+Trailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Trailer.php
+END

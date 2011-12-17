@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object
+END
+Planet.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Planet.php
+END
+Code25interleaved.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Code25interleaved.php
+END
+Upca.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Upca.php
+END
+Upce.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Upce.php
+END
+Postnet.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Postnet.php
+END
+Identcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Identcode.php
+END
+Royalmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Royalmail.php
+END
+Itf14.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Itf14.php
+END
+Ean2.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Ean2.php
+END
+ObjectAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/ObjectAbstract.php
+END
+Ean5.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Ean5.php
+END
+Ean8.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Ean8.php
+END
+Error.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Error.php
+END
+Code128.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Code128.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Exception.php
+END
+Code25.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Code25.php
+END
+Leitcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Leitcode.php
+END
+Code39.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Code39.php
+END
+Ean13.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode/Object/Ean13.php
+END

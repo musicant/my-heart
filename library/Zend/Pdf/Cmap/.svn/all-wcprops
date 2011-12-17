@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Cmap
+END
+SegmentToDelta.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Cmap/SegmentToDelta.php
+END
+ByteEncoding.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Cmap/ByteEncoding.php
+END
+TrimmedTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Cmap/TrimmedTable.php
+END

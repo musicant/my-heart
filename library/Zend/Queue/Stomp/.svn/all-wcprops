@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Queue/Stomp
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Queue/Stomp/Client.php
+END
+FrameInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Queue/Stomp/FrameInterface.php
+END
+Frame.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Queue/Stomp/Frame.php
+END

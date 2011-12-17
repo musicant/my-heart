@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Client
+END
+Soap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Client/Soap.php
+END
+ClientAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Client/ClientAbstract.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Client/Exception.php
+END

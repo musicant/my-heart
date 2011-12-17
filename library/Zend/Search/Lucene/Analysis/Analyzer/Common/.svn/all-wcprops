@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Analyzer/Common
+END
+TextNum.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Analyzer/Common/TextNum.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Analyzer/Common/Text.php
+END
+Utf8.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Analyzer/Common/Utf8.php
+END
+Utf8Num.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Search/Lucene/Analysis/Analyzer/Common/Utf8Num.php
+END

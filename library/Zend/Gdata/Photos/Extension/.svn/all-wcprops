@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension
+END
+Timestamp.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Timestamp.php
+END
+MaxPhotosPerAlbum.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/MaxPhotosPerAlbum.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Version.php
+END
+Weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Weight.php
+END
+Id.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Id.php
+END
+Rotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Rotation.php
+END
+CommentingEnabled.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/CommentingEnabled.php
+END
+QuotaCurrent.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/QuotaCurrent.php
+END
+Size.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Size.php
+END
+Checksum.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Checksum.php
+END
+QuotaLimit.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/QuotaLimit.php
+END
+Access.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Access.php
+END
+Width.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Width.php
+END
+NumPhotos.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/NumPhotos.php
+END
+Height.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Height.php
+END
+BytesUsed.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/BytesUsed.php
+END
+Position.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Position.php
+END
+AlbumId.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/AlbumId.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Client.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/User.php
+END
+Name.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Name.php
+END
+Thumbnail.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Thumbnail.php
+END
+PhotoId.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/PhotoId.php
+END
+Nickname.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Nickname.php
+END
+NumPhotosRemaining.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/NumPhotosRemaining.php
+END
+CommentCount.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/CommentCount.php
+END
+Location.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Photos/Extension/Location.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Crypt/Math
+END
+BigInteger.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Crypt/Math/BigInteger.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Crypt/Math/Exception.php
+END

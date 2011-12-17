@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mime
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mime/Message.php
+END
+Decode.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mime/Decode.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mime/Exception.php
+END
+Part.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mime/Part.php
+END

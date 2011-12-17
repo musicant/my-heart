@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension
+END
+Exposure.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Exposure.php
+END
+ImageUniqueId.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/ImageUniqueId.php
+END
+FStop.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/FStop.php
+END
+Tags.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Tags.php
+END
+Model.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Model.php
+END
+FocalLength.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/FocalLength.php
+END
+Time.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Time.php
+END
+Make.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Make.php
+END
+Flash.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Flash.php
+END
+Distance.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Distance.php
+END
+Iso.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Exif/Extension/Iso.php
+END

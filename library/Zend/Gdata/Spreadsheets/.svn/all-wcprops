@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets
+END
+SpreadsheetEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/SpreadsheetEntry.php
+END
+CellQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/CellQuery.php
+END
+SpreadsheetFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/SpreadsheetFeed.php
+END
+ListQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/ListQuery.php
+END
+ListFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/ListFeed.php
+END
+WorksheetFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/WorksheetFeed.php
+END
+DocumentQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/DocumentQuery.php
+END
+CellEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/CellEntry.php
+END
+CellFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/CellFeed.php
+END
+ListEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/ListEntry.php
+END
+WorksheetEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Spreadsheets/WorksheetEntry.php
+END

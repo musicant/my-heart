@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php
+END
+Class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Class.php
+END
+Parameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Parameter.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/File.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Exception.php
+END
+Method.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Method.php
+END
+Body.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Body.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Abstract.php
+END
+Docblock.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Docblock.php
+END
+Property.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/CodeGenerator/Php/Property.php
+END

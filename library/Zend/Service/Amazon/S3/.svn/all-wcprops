@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/S3
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/S3/Exception.php
+END
+Stream.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/Amazon/S3/Stream.php
+END

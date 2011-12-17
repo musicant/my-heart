@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension
+END
+Username.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Username.php
+END
+NoEmbed.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/NoEmbed.php
+END
+FirstName.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/FirstName.php
+END
+Control.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Control.php
+END
+Uploaded.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Uploaded.php
+END
+MediaRating.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/MediaRating.php
+END
+Statistics.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Statistics.php
+END
+Racy.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Racy.php
+END
+Music.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Music.php
+END
+PlaylistTitle.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/PlaylistTitle.php
+END
+Position.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Position.php
+END
+Books.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Books.php
+END
+Recorded.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Recorded.php
+END
+Hobbies.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Hobbies.php
+END
+Hometown.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Hometown.php
+END
+Status.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Status.php
+END
+School.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/School.php
+END
+MediaContent.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/MediaContent.php
+END
+Location.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Location.php
+END
+CountHint.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/CountHint.php
+END
+VideoId.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/VideoId.php
+END
+Relationship.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Relationship.php
+END
+QueryString.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/QueryString.php
+END
+Token.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Token.php
+END
+Link.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Link.php
+END
+MediaGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/MediaGroup.php
+END
+Description.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Description.php
+END
+MediaCredit.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/MediaCredit.php
+END
+Company.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Company.php
+END
+Age.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Age.php
+END
+Gender.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Gender.php
+END
+LastName.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/LastName.php
+END
+Private.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Private.php
+END
+Movies.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Movies.php
+END
+AboutMe.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/AboutMe.php
+END
+Occupation.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Occupation.php
+END
+PlaylistId.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/PlaylistId.php
+END
+State.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/State.php
+END
+Duration.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/Duration.php
+END
+ReleaseDate.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/YouTube/Extension/ReleaseDate.php
+END

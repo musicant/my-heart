@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Protocol/Smtp/Auth
+END
+Login.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Protocol/Smtp/Auth/Login.php
+END
+Plain.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Protocol/Smtp/Auth/Plain.php
+END
+Crammd5.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail/Protocol/Smtp/Auth/Crammd5.php
+END

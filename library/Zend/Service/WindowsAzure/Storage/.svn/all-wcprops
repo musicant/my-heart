@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage
+END
+QueueMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/QueueMessage.php
+END
+TableEntityQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/TableEntityQuery.php
+END
+PageRegionInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/PageRegionInstance.php
+END
+Batch.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/Batch.php
+END
+Blob.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/Blob.php
+END
+StorageEntityAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/StorageEntityAbstract.php
+END
+BatchStorageAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/BatchStorageAbstract.php
+END
+TableInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/TableInstance.php
+END
+BlobContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/BlobContainer.php
+END
+SignedIdentifier.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/SignedIdentifier.php
+END
+QueueInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/QueueInstance.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/Table.php
+END
+LeaseInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/LeaseInstance.php
+END
+Queue.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/Queue.php
+END
+TableEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/TableEntity.php
+END
+DynamicTableEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/DynamicTableEntity.php
+END
+BlobInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/Storage/BlobInstance.php
+END

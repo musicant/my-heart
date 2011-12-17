@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation
+END
+LocateIPResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation/LocateIPResponse.php
+END
+IPAddressLocationType.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation/IPAddressLocationType.php
+END
+RegionType.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation/RegionType.php
+END
+LocateIPResponseType.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation/LocateIPResponseType.php
+END
+GeoCoordinatesType.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation/GeoCoordinatesType.php
+END
+CityType.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/IpLocation/CityType.php
+END

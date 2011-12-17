@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall
+END
+RemoveConferenceTemplateParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/RemoveConferenceTemplateParticipantRequest.php
+END
+CreateConferenceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/CreateConferenceRequest.php
+END
+UpdateConferenceTemplateParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/UpdateConferenceTemplateParticipantRequest.php
+END
+CommitConferenceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/CommitConferenceRequest.php
+END
+NewParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/NewParticipantRequest.php
+END
+CreateConferenceTemplateRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/CreateConferenceTemplateRequest.php
+END
+GetConferenceListRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetConferenceListRequest.php
+END
+GetParticipantStatusRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetParticipantStatusRequest.php
+END
+RemoveParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/RemoveParticipantRequest.php
+END
+GetConferenceTemplateRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetConferenceTemplateRequest.php
+END
+UpdateParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/UpdateParticipantRequest.php
+END
+GetConferenceTemplateListRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetConferenceTemplateListRequest.php
+END
+GetConferenceTemplateParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetConferenceTemplateParticipantRequest.php
+END
+GetRunningConferenceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetRunningConferenceRequest.php
+END
+UpdateConferenceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/UpdateConferenceRequest.php
+END
+GetConferenceStatusRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/GetConferenceStatusRequest.php
+END
+RemoveConferenceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/RemoveConferenceRequest.php
+END
+UpdateConferenceTemplateRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/UpdateConferenceTemplateRequest.php
+END
+AddConferenceTemplateParticipantRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/AddConferenceTemplateParticipantRequest.php
+END
+RemoveConferenceTemplateRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Request/ConferenceCall/RemoveConferenceTemplateRequest.php
+END

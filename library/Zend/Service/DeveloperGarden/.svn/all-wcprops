@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden
+END
+Credential.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Credential.php
+END
+BaseUserService.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/BaseUserService.php
+END
+ConferenceCall.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/ConferenceCall.php
+END
+SecurityTokenServer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/SecurityTokenServer.php
+END
+IpLocation.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/IpLocation.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Exception.php
+END
+VoiceCall.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/VoiceCall.php
+END
+SendSms.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/SendSms.php
+END
+SmsValidation.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/SmsValidation.php
+END
+LocalSearch.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/LocalSearch.php
+END

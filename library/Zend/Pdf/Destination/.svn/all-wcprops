@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination
+END
+FitBoundingBox.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/FitBoundingBox.php
+END
+FitBoundingBoxHorizontally.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/FitBoundingBoxHorizontally.php
+END
+FitBoundingBoxVertically.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/FitBoundingBoxVertically.php
+END
+Named.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/Named.php
+END
+Unknown.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/Unknown.php
+END
+FitRectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/FitRectangle.php
+END
+Fit.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/Fit.php
+END
+FitHorizontally.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/FitHorizontally.php
+END
+Zoom.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/Zoom.php
+END
+Explicit.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/Explicit.php
+END
+FitVertically.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf/Destination/FitVertically.php
+END

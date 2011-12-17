@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/RetryPolicy
+END
+RetryN.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/RetryPolicy/RetryN.php
+END
+NoRetry.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/RetryPolicy/NoRetry.php
+END
+RetryPolicyAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/RetryPolicy/RetryPolicyAbstract.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/WindowsAzure/RetryPolicy/Exception.php
+END

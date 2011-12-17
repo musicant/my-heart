@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps
+END
+MemberEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/MemberEntry.php
+END
+MemberFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/MemberFeed.php
+END
+EmailListEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/EmailListEntry.php
+END
+EmailListFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/EmailListFeed.php
+END
+NicknameQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/NicknameQuery.php
+END
+ServiceException.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/ServiceException.php
+END
+UserQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/UserQuery.php
+END
+EmailListRecipientFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/EmailListRecipientFeed.php
+END
+GroupFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/GroupFeed.php
+END
+OwnerEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/OwnerEntry.php
+END
+NicknameEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/NicknameEntry.php
+END
+UserEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/UserEntry.php
+END
+Error.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/Error.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/Query.php
+END
+UserFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/UserFeed.php
+END
+EmailListRecipientQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/EmailListRecipientQuery.php
+END
+GroupQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/GroupQuery.php
+END
+NicknameFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/NicknameFeed.php
+END
+MemberQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/MemberQuery.php
+END
+EmailListQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/EmailListQuery.php
+END
+OwnerFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/OwnerFeed.php
+END
+EmailListRecipientEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/EmailListRecipientEntry.php
+END
+GroupEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/GroupEntry.php
+END
+OwnerQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata/Gapps/OwnerQuery.php
+END

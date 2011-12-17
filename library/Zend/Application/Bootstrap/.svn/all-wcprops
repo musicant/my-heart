@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application/Bootstrap
+END
+ResourceBootstrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application/Bootstrap/ResourceBootstrapper.php
+END
+Bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application/Bootstrap/Bootstrap.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application/Bootstrap/Exception.php
+END
+Bootstrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application/Bootstrap/Bootstrapper.php
+END
+BootstrapAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application/Bootstrap/BootstrapAbstract.php
+END

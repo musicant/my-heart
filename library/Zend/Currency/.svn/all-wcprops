@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Currency
+END
+CurrencyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Currency/CurrencyInterface.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Currency/Exception.php
+END

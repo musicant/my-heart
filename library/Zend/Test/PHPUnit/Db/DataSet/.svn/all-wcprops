@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Test/PHPUnit/Db/DataSet
+END
+DbRowset.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Test/PHPUnit/Db/DataSet/DbRowset.php
+END
+QueryTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Test/PHPUnit/Db/DataSet/QueryTable.php
+END
+DbTableDataSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Test/PHPUnit/Db/DataSet/DbTableDataSet.php
+END
+QueryDataSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Test/PHPUnit/Db/DataSet/QueryDataSet.php
+END
+DbTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Test/PHPUnit/Db/DataSet/DbTable.php
+END

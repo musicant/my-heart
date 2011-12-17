@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cloud/StorageService/Adapter
+END
+Nirvanix.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cloud/StorageService/Adapter/Nirvanix.php
+END
+FileSystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cloud/StorageService/Adapter/FileSystem.php
+END
+WindowsAzure.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cloud/StorageService/Adapter/WindowsAzure.php
+END
+S3.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cloud/StorageService/Adapter/S3.php
+END

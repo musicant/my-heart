@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/ripple/!svn/ver/6051/trunk/libs/Zend
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Validate.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Session.php
+END
+Oauth.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Oauth.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Version.php
+END
+Locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Locale.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Feed.php
+END
+youtube_api.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/youtube_api.php
+END
+InfoCard.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/InfoCard.php
+END
+View.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/View.php
+END
+ProgressBar.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/ProgressBar.php
+END
+Ldap.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Ldap.php
+END
+Json.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Json.php
+END
+Markup.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Markup.php
+END
+Auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Auth.php
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Layout.php
+END
+Uri.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Uri.php
+END
+Crypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Crypt.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Date.php
+END
+Pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Pdf.php
+END
+Mime.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mime.php
+END
+Mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Mail.php
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Filter.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Registry.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Db.php
+END
+Barcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Barcode.php
+END
+Memory.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Memory.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Cache.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Config.php
+END
+flickr_api.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/flickr_api.php
+END
+Form.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Form.php
+END
+Log.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Log.php
+END
+OpenId.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/OpenId.php
+END
+TimeSync.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/TimeSync.php
+END
+Acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Acl.php
+END
+Translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Translate.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Exception.php
+END
+Application.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Application.php
+END
+Dojo.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo.php
+END
+Gdata.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Gdata.php
+END
+Paginator.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Paginator.php
+END
+Currency.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Currency.php
+END
+Queue.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Queue.php
+END
+Serializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Serializer.php
+END
+Loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Loader.php
+END
+Debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Debug.php
+END
+Navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Navigation.php
+END

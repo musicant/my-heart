@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler
+END
+NewCallSequencedResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler/NewCallSequencedResponse.php
+END
+VoiceButlerAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler/VoiceButlerAbstract.php
+END
+NewCallResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler/NewCallResponse.php
+END
+CallStatusResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler/CallStatusResponse.php
+END
+TearDownCallResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler/TearDownCallResponse.php
+END
+CallStatus2Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Service/DeveloperGarden/Response/VoiceButler/CallStatus2Response.php
+END

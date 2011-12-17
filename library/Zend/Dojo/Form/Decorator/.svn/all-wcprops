@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator
+END
+SplitContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/SplitContainer.php
+END
+AccordionContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/AccordionContainer.php
+END
+StackContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/StackContainer.php
+END
+TabContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/TabContainer.php
+END
+DijitElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/DijitElement.php
+END
+AccordionPane.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/AccordionPane.php
+END
+ContentPane.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/ContentPane.php
+END
+DijitContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/DijitContainer.php
+END
+DijitForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/DijitForm.php
+END
+BorderContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ripple/!svn/ver/4272/trunk/libs/Zend/Dojo/Form/Decorator/BorderContainer.php
+END
