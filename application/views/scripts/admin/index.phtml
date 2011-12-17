@@ -9,27 +9,32 @@
      // API initialization succeeded
      // Your code here
     });
+    var messageId;
+    function callbackOK(){
+        $.ajax({
+            url:	 '/admin/update?id='+messageId, //УРЛ, к которому мы обращаемся
+            type:	 'GET', //тип: может быть GET или POST (о нём чуть ниже)
+            success: function(response){ //success - функция, которая вызывается, когда запрос прошёл успешно и данные (data) получены
+                  //  alert('Сервер вернул ответ: ' + response);
+                $('#admin'+messageId).css('display','none');
+            }
+        });
+
+    }
+    function callbackCancel(){
+        
+    }
+
     function call(id,wall_id,message,photo_id)
     {
+        messageId = id;
 
 	    VK.api("wall.savePost", {"wall_id":wall_id,"photo_id":photo_id,"message": message,"test_mode": 1},function(data){
         //            alert(data.response.post_hash);
+            VK.addCallback("onWallPostSave", callbackOK);
+            VK.addCallback("onWallPostCancel", callbackCancel);
+            
 			VK.callMethod("saveWallPost", data.response.post_hash);
-            /*$.ajax({
-                url: '/ajax/example.html',             // указываем URL и
-                dataType : "json",                     // тип загружаемых данных
-                success: function (data, textStatus) { // вешаем свой обработчик на функцию success
-                    $.each(data, function(i, val) {    // обрабатываем полученные данные
-            });
-            */
-             $.ajax({
-               	url:	 '/admin/update?id='+id, //УРЛ, к которому мы обращаемся
-            	type:	 'GET', //тип: может быть GET или POST (о нём чуть ниже)
-	            success: function(response){ //success - функция, которая вызывается, когда запрос прошёл успешно и данные (data) получены
-	                  //  alert('Сервер вернул ответ: ' + response);
-                    $('#admin'+id).css('display','none');
-	            }
-            });
 
         });
 

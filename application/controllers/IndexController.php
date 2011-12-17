@@ -47,9 +47,19 @@ class IndexController extends Zend_Controller_Action
 
     public function congratulationAction(){
         $request = $this->getRequest();
-        
-        print_r($request->getParams());
-        die();
+        $MessagesTable = new Application_Model_DbTable_Messages();
+
+        $VKParams = new Zend_Session_Namespace('testSpace');
+        $currentUserId = $VKParams->requestParams['user_id'];
+
+
+        $messageData = array();
+        $messageData['message_sent_from'] = $currentUserId;
+        $messageData['message_sent_to'] = $request->getParam('friend-id');
+        $messageData['photo_id'] = $request->getParam('post-card');
+        $messageData['message'] = 'test message';
+        $MessagesTable->insert($messageData);
+        die('congratulation!');
     }
 
 }
