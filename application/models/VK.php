@@ -65,5 +65,13 @@ class Application_Model_VK
         return $FriendsData;
     }
 
+    //TODO: we use this method for button in admin panel
+    public function getPhotos(){
+        $userId = '5701489';
+        $albumId = '145745462';
+        $photosJSON = Application_Model_VK::makeVKRequest("photos.get",array('uid'=>$userId, 'aid'=>$albumId, 'format'=>'json'));
+        return json_decode($photosJSON);
+    }
+
 }
 

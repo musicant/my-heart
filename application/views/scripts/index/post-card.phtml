@@ -3,8 +3,58 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
 <script type="text/javascript" src="/js/jquery.min.js" ></script>
+<style type="text/css">
+    .my-post-card{
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .my-post-card-checked{
+        border: 1px solid red;
+    }
+
+    .hide-input{
+        overflow: hidden;
+        text-indent:-1000px;
+        display: inline-block;
+    }
+    .wrapper{
+        wight: 607px;
+        height: 500px;
+        overflow-y:scroll;
+    }
+</style>
 </head>
 <body>
-<?php echo $this->myFriendId ?>
+<div class="wrapper">
+
+
+
+<form action="/index/congratulation">
+    <input type="hidden" name="friend-id" value="<?php echo $this->myFriendId ?>" />
+
+<?php foreach ($this->images as $image) {
+    
+    echo '<div class="my-post-card" id="div-post-card-id-'.$image['photo_id'].'">
+    <label for="post-card-id-'.$image['photo_id'].'">
+    <img src="'.$image['src'].'" alt="Pid" title="pid">
+    </label>
+    <div class="hide-input">
+    <input type="radio" name="post-card" value="'.$image['photo_id'].'" id="post-card-id-'.$image['photo_id'].'" class="target">
+    </div>
+    </div>';
+}
+?>
+    <input type="submit" name="sent" value="Отправить">
+</form>
+
+<script type="text/javascript">
+jQuery('.target').change(function(){
+    jQuery('.my-post-card').removeClass('my-post-card-checked');
+    jQuery('#div-post-card-id-'+jQuery(this).val()).addClass('my-post-card-checked');
+})
+</script>
+
+</div>
 </body>
 </html>
