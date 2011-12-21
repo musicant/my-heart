@@ -12,6 +12,36 @@ class AdminController extends Zend_Controller_Action
     {
         $messages = new Application_Model_DbTable_Messages();
         $this->view->messages = $messages->getMessage();
+
+        // action body
+        $vk = new vk_auth();
+
+        if($vk->check_auth())
+        {
+            echo 'Authorised in vk!<br>';
+        }
+        else
+        {
+            echo $vk->print_last_error();
+            exit();
+        }
+
+        // сообщение для публикации (обязательно в UTF-8)
+        //$message = 'Діду Морозу сподобалось це повідомлення.';
+
+        // публикация сообщения на странице юзера контакта
+        foreach ($this->view->messages as $message){
+            if ($vk->post_to_user($message['message_sent_to'], $message['message'],false, $message['photo_id']))
+            {
+                echo 'Лєнич, ВОНО САМЕ ПОСТИТЬ!';
+            }
+            else
+            {
+                echo $vk->print_last_error();
+                exit();
+            }
+        }
+
     }
     public function updateAction()
     {
