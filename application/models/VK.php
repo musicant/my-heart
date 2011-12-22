@@ -67,8 +67,8 @@ class Application_Model_VK
 
     //TODO: we use this method for button in admin panel
     public function getPhotos(){
-        $userId = '5701489';
-        $albumId = '145745462';
+        $userId = SANTA_ID;
+        $albumId = SANTA_ALBUM_ID;
         $photosJSON = Application_Model_VK::makeVKRequest("photos.get",array('uid'=>$userId, 'aid'=>$albumId, 'format'=>'json'));
         return json_decode($photosJSON);
     }

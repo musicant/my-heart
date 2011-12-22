@@ -12,6 +12,9 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $VK_Config['api_secret'] = "ubNrwsizrFN5LJmWhAeD";
         $VK_Config['api_url'] = "http://api.vkontakte.ru/api.php";
 
+        define("SANTA_ID",'5701489');
+        define("SANTA_ALBUM_ID",'145745462');
+
 
         //configuration for "wallposter"
         define('VKEMAIL', 'djas-best@mail.ru');				// vk email/login

@@ -53,5 +53,30 @@ class AdminController extends Zend_Controller_Action
         echo $id.'true';die;
     }
 
+    public function parserAction(){
+        $VK = new Application_Model_VK();
+        $ImagesTable = new Application_Model_DbTable_Images();
+
+        $imgPath = APPLICATION_PATH."/../public/img/";
+
+        $photos = $VK->getPhotos();
+        foreach ($photos->response as $photo){
+
+            file_put_contents($imgPath.basename($photo->src_big,"?"),file_get_contents($photo->src_big));
+            $row = $ImagesTable->fetchRow($ImagesTable->select()->where('photo_id=?',SANTA_ID."_".$photo->pid));
+            if (!empty($row['image_id'])){
+                $imageArray = array();
+                $imageArray['src'] = $photo->src_big;
+                $ImagesTable->update($imageArray,$row['image_id']);
+            } else {
+                $imageArray = array();
+                $imageArray['photo_id'] = SANTA_ID."_".$photo->pid;
+                $imageArray['src'] = $photo->src_big;
+                $ImagesTable->insert($imageArray);
+            }
+        }
+        die();
+    }
+
 }
 
