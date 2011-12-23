@@ -74,7 +74,7 @@ class AdminController extends Zend_Controller_Action
             if (!empty($row['image_id'])){
                 $imageArray = array();
                 $imageArray['src'] = $photo->src_big;
-                $ImagesTable->update($imageArray,$row['image_id']);
+                $ImagesTable->update($imageArray,'image_id='.$row['image_id']);
             } else {
                 $imageArray = array();
                 $imageArray['photo_id'] = SANTA_ID."_".$photo->pid;
