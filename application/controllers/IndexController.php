@@ -12,14 +12,15 @@ class IndexController extends Zend_Controller_Action
     {
         $request = $this->getRequest();
         $VKParams = new Zend_Session_Namespace('testSpace');
-        $VKParams->requestParams = $request->getParams();
+        if (!isset($VKParams->requestParams))
+            $VKParams->requestParams = $request->getParams();
 
 
         $VKParams = new Zend_Session_Namespace('testSpace');
         $VK = new Application_Model_VK();
         $currentUserId = $VKParams->requestParams['user_id'];
 
-        $votes = $VK->getUserVotes($currentUserId);
+        $this->view->votes = $VK->getUserVotes($currentUserId);
 
         //get images list:
         $ImagesTable = new Application_Model_DbTable_Images();
@@ -63,17 +64,31 @@ class IndexController extends Zend_Controller_Action
     public function congratulationAction(){
         $request = $this->getRequest();
         $MessagesTable = new Application_Model_DbTable_Messages();
+        $ImagesTable = new Application_Model_DbTable_Images();
 
         $VKParams = new Zend_Session_Namespace('testSpace');
         $currentUserId = $VKParams->requestParams['user_id'];
 
+        $imageId = $request->getParam('image_id');
+        $currentImage = $ImagesTable->fetchRow($ImagesTable->select()->where('image_id=?',$imageId));
+
+        $VK = new Application_Model_VK();
 
         $messageData = array();
         $messageData['message_sent_from'] = $currentUserId;
         $messageData['message_sent_to'] = $request->getParam('friend');
-        $messageData['image_id'] = $request->getParam('image_id');
+        $messageData['image_id'] = $imageId;
         $messageData['message'] = 'Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489';
-        $MessagesTable->insert($messageData);
+        try {
+            $MessagesTable->insert($messageData);
+            if (!empty($currentImage['price'])){
+                $VK->getMoneyFromUser($currentUserId,$currentImage['price']);
+            }
+        } catch (Zend_Exception $e){
+
+        }
+
+
     }
 
 }

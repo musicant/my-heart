@@ -11,25 +11,55 @@
      // Your code here
     });
     VK.callMethod("resizeWindow", 680, 800);
+
+
+    var userBalance;
+    var p_url;
+    var p_price;
+    VK.api('getUserBalance',{},function(data){ userBalance = data.response; });
+    
+    VK.addCallback('onBalanceChanged', balanceChanged);
+
+    function balanceChanged(balance){
+        VK.api('getUserBalance',{},function(data){
+            if (userBalance<data.response){
+                userBalance = data.response;
+                byThisImage(p_url,p_price);
+            } else {
+                userBalance = data.response;
+            }
+        });
+    };
+
+    function byThisImage(url,price){
+        p_url = url;
+        p_price = price;
+        if(userBalance<price){
+            VK.callMethod('showPaymentBox', (price-userBalance)/100);
+            return false;
+        } else {
+            window.location = url;
+            return true;
+        }
+    }
+
+
     </script>
 </head>
 <body id="body">
     <div id="wrapper">
         <div class="empty"></div>
-        <div class="menu">
+        <!--<div class="menu">
             <a href="/index/friends">Ідемо далі</a>
             <a href="/admin">Админ</a>
-            <!-- Ця строчка снімає голоса із юзера і зачісляє на рахунок юзера в додатку.
-            Потім нада перевести ці голоса із рахунка юзера в додатку на рахунок самого додатку-->
-            <a href="#" onclick="VK.callMethod('showPaymentBox', 2);">Pay</a>
-        </div>
+        </div>-->
         <div class="phot_main">
             <?php foreach ($this->images as $image){?>
                 <div class="img_block">
                     <div class="img_inside">
-                        <a href="/index/friends?image_id=<?php echo $image['image_id']?>"><img src="/img/<?php echo basename($image['src'],"?")?>"/></a>
+                        <a href="/index/friends?image_id=<?php echo $image['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $image['image_id']?>',<?php echo $image['price']*100?>);"><img src="/img/<?php echo basename($image['src'],"?")?>"/></a>
                         <?php if (!empty($image['price'])){?>
-                            <div class="img_price"><?php echo $image['price']?></div>
+                            <div class= "img_price"><?php echo $image['price']?></div>
                         <?php }?>
                     </div>
                     <div class="send">
