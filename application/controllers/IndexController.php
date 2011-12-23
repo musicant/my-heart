@@ -13,6 +13,18 @@ class IndexController extends Zend_Controller_Action
         $request = $this->getRequest();
         $VKParams = new Zend_Session_Namespace('testSpace');
         $VKParams->requestParams = $request->getParams();
+
+
+        $VKParams = new Zend_Session_Namespace('testSpace');
+        $VK = new Application_Model_VK();
+        $currentUserId = $VKParams->requestParams['user_id'];
+
+        $votes = $VK->getUserVotes($currentUserId);
+
+        //get images list:
+        $ImagesTable = new Application_Model_DbTable_Images();
+        $images = $ImagesTable->getImages();
+        $this->view->images = $images;
     }
 
     public function friendsAction()
@@ -22,6 +34,10 @@ class IndexController extends Zend_Controller_Action
         $VK = new Application_Model_VK();
         $currentUserId = $VKParams->requestParams['user_id'];
 
+        $request = $this->getRequest();
+        $imageId = $request->getParam('image_id');
+
+        $this->view->imageId = $imageId;
         $this->view->currentUserId = $currentUserId;
         $this->view->friendsData = $VK->getFriendsList($currentUserId);
     }
@@ -54,11 +70,10 @@ class IndexController extends Zend_Controller_Action
 
         $messageData = array();
         $messageData['message_sent_from'] = $currentUserId;
-        $messageData['message_sent_to'] = $request->getParam('friend-id');
-        $messageData['photo_id'] = $request->getParam('post-card');
-        $messageData['message'] = 'test message';
+        $messageData['message_sent_to'] = $request->getParam('friend');
+        $messageData['image_id'] = $request->getParam('image_id');
+        $messageData['message'] = 'Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489';
         $MessagesTable->insert($messageData);
-        die('congratulation!');
     }
 
 }

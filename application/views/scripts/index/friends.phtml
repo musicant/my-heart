@@ -30,7 +30,8 @@
 <div class="wrapper">
 <h3>Прийшли</h3>
 
-<form action="/index/post-card">
+<form action="/index/congratulation">
+    <input type="hidden" name="image_id" value="<?php echo $this->imageId ?>" />
 <?php
 foreach($this->friendsData->response as $friend){
     $friendName = $friend->first_name.' '.$friend->last_name;

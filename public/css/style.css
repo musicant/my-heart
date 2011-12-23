@@ -36,6 +36,10 @@ ul li{list-style: none;}
 
 /* Photo
 -----------------------------------------------------------------------------*/
+.phot_main{
+    height: 370px;
+    overflow-y: scroll;
+}
 .empty{
     height:390px;
     width:600px;
@@ -58,6 +62,20 @@ ul li{list-style: none;}
    float:left;
     background:#fff;
     padding:5px;
+    position: relative;
+}
+.img_price{
+    background: url("../img/star.png") no-repeat;
+    background-size: 30px 30px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #dc143c;
+    position: absolute;
+    right: -5px;
+    bottom: -10px;
+    height: 30px;
+    width: 30px;
 }
 .send{
    float:left;

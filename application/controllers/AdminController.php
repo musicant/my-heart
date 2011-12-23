@@ -33,7 +33,10 @@ class AdminController extends Zend_Controller_Action
         foreach ($this->view->messages as $message){
             if ($vk->post_to_user($message['message_sent_to'], $message['message'],false, $message['photo_id']))
             {
-                echo 'Лєнич, ВОНО САМЕ ПОСТИТЬ!';
+                echo $message['id']." Posted<br/>";
+                $id = $message['id'];
+                $messages = new Application_Model_DbTable_Messages();
+                $messages->updateMessage($id);
             }
             else
             {
@@ -41,6 +44,7 @@ class AdminController extends Zend_Controller_Action
                 exit();
             }
         }
+        die();
 
     }
     public function updateAction()
@@ -62,7 +66,10 @@ class AdminController extends Zend_Controller_Action
         $photos = $VK->getPhotos();
         foreach ($photos->response as $photo){
 
-            file_put_contents($imgPath.basename($photo->src_big,"?"),file_get_contents($photo->src_big));
+            $file_path = $imgPath.basename($photo->src_big,"?");
+            if (!file_exists($file_path))
+                file_put_contents($file_path,file_get_contents($photo->src_big));
+
             $row = $ImagesTable->fetchRow($ImagesTable->select()->where('photo_id=?',SANTA_ID."_".$photo->pid));
             if (!empty($row['image_id'])){
                 $imageArray = array();
@@ -75,6 +82,16 @@ class AdminController extends Zend_Controller_Action
                 $ImagesTable->insert($imageArray);
             }
         }
+        die();
+    }
+
+    public function testAction(){
+        $VKParams = new Zend_Session_Namespace('testSpace');
+        $VK = new Application_Model_VK();
+        $currentUserId = $VKParams->requestParams['user_id'];
+
+        $votes = $VK->getUserVotes($currentUserId);
+        echo $votes;
         die();
     }
 

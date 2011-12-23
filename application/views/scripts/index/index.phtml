@@ -19,72 +19,24 @@
         <div class="menu">
             <a href="/index/friends">Ідемо далі</a>
             <a href="/admin">Админ</a>
+            <!-- Ця строчка снімає голоса із юзера і зачісляє на рахунок юзера в додатку.
+            Потім нада перевести ці голоса із рахунка юзера в додатку на рахунок самого додатку-->
+            <a href="#" onclick="VK.callMethod('showPaymentBox', 2);">Pay</a>
         </div>
         <div class="phot_main">
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=1.jpg"><img src="/img/1.jpg"/></a>
+            <?php foreach ($this->images as $image){?>
+                <div class="img_block">
+                    <div class="img_inside">
+                        <a href="/index/friends?image_id=<?php echo $image['image_id']?>"><img src="/img/<?php echo basename($image['src'],"?")?>"/></a>
+                        <?php if (!empty($image['price'])){?>
+                            <div class="img_price"><?php echo $image['price']?></div>
+                        <?php }?>
+                    </div>
+                    <div class="send">
+                        Отправок:<?php echo $image['sent_count']?>
+                    </div>
                 </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=2.jpg"><img src="/img/2.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=3.jpg"><img src="/img/3.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=4.jpg"><img src="/img/4.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=5.jpg"><img src="/img/5.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=6.jpg"><img src="/img/6.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=7.jpg"><img src="/img/7.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
-            <div class="img_block">
-                <div class="img_inside">
-                    <a href="/index/friends?photo=8.jpg"><img src="/img/8.jpg"/></a>
-                </div>
-                <div class="send">
-                    Отправок:123
-                </div>
-            </div>
+            <?php }?>
         </div>
 
     </div>

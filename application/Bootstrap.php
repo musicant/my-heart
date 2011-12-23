@@ -32,6 +32,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 
         require_once 'wallposter/classes/minicurl.class.php';
         require_once 'wallposter/classes/vk_poster.class.php';
+        require_once 'votesVkApi/VkApi.class.php';
 
         
         $writer = new Zend_Log_Writer_Stream(APPLICATION_PATH.'/../logs/zend.'.date("Y-m-d").'.log');
