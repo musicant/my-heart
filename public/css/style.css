@@ -150,8 +150,15 @@ ul li{list-style: none;}
     color:#fff;
     font-size:11px;
 }
+.thumb-left, .thumb-right, .thumb-center{
+    height: 500px;
+}
 .thumb-carousel{
     width:  550px;
+    height: 500px;
+}
+.thumb-carousel ul li{
+    height: 500px !important;
 }
 .thumb-carousel, .next, .prev{
     float:left;
