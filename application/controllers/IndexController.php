@@ -10,6 +10,8 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
+
+
         $request = $this->getRequest();
         $VKParams = new Zend_Session_Namespace('testSpace');
         if (!isset($VKParams->requestParams))
@@ -22,9 +24,10 @@ class IndexController extends Zend_Controller_Action
 
         $this->view->votes = $VK->getUserVotes($currentUserId);
 
+        $pageId = $request->getParam('page_id',0);
         //get images list:
         $ImagesTable = new Application_Model_DbTable_Images();
-        $images = $ImagesTable->getImages();
+        $images = $ImagesTable->getImages($pageId);
         $this->view->images = $images;
     }
 
