@@ -35,7 +35,7 @@ class IndexController extends Zend_Controller_Action
         // action body
         $VKParams = new Zend_Session_Namespace('testSpace');
         $VK = new Application_Model_VK();
-        $currentUserId = $VKParams->requestParams['user_id'];
+        $currentUserId = $VKParams->requestParams['viewer_id'];
 
         $request = $this->getRequest();
         $imageId = $request->getParam('image_id');
@@ -51,7 +51,7 @@ class IndexController extends Zend_Controller_Action
     {
         // action body
         $VKParams = new Zend_Session_Namespace('testSpace');
-        $currentUserId = $VKParams->requestParams['user_id'];
+        $currentUserId = $VKParams->requestParams['viewer_id'];
 
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->fetchAll()->toArray();
@@ -70,7 +70,7 @@ class IndexController extends Zend_Controller_Action
         $ImagesTable = new Application_Model_DbTable_Images();
 
         $VKParams = new Zend_Session_Namespace('testSpace');
-        $currentUserId = $VKParams->requestParams['user_id'];
+        $currentUserId = $VKParams->requestParams['viewer_id'];
 
         $imageId = $request->getParam('image_id');
         $currentImage = $ImagesTable->fetchRow($ImagesTable->select()->where('image_id=?',$imageId));
