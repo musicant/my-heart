@@ -58,7 +58,7 @@ class Application_Model_VK
     }
 
     public function getFriendsList($currentUserId){
-        $friendIdsJSON = Application_Model_VK::makeVKRequest("friends.get",array('uid'=>$currentUserId, 'format'=>'json'));
+        $friendIdsJSON = Application_Model_VK::makeVKRequest("friends.get",array('uid'=>$currentUserId,'format'=>'json'));
         $FriendIds = json_decode($friendIdsJSON);
         $friendsDataJSON = Application_Model_VK::makeVKRequest("getProfiles",array('uids'=>implode(',',$FriendIds->response),'fields'=>"uid,first_name,last_name,photo", 'format'=>'json'));
         $FriendsData = json_decode($friendsDataJSON);
