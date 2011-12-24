@@ -3,17 +3,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
 <script type="text/javascript" src="/js/jquery.min.js" ></script>
+    <script type="text/javascript" src="/js/jcarousellite_1.0.1.min.js" ></script>
+
 <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
 <script type="text/javascript">
+    $(document).ready(function() {
+// thumb-carousel
+    $(".thumb-carousel").jCarouselLite({
+        btnNext: ".thumb-center .next",
+        btnPrev: ".thumb-center .prev",
+        visible: 1,
+        circular: false
+    });
+
+});
     VK.init(function() {
 
      // API initialization succeeded
      // Your code here
     });
-<<<<<<< HEAD
     VK.callMethod("resizeWindow", 680, 1800);
-=======
-    VK.callMethod("resizeWindow", 680, 800);
 
 
     var userBalance;
@@ -47,32 +56,57 @@
     }
 
 
->>>>>>> 865de0a0f99557129b7d3b2a18f0cc469608e4f9
     </script>
 </head>
 <body id="body">
-<?php print_r($this->debugParams) ?>
+
     <div id="wrapper">
         <div class="empty"></div>
         <!--<div class="menu">
             <a href="/index/friends">Ідемо далі</a>
             <a href="/admin">Админ</a>
         </div>-->
-        <div class="phot_main">
-            <?php foreach ($this->images as $image){?>
+        <div class="thumb-left"><div class="thumb-right"><div class="thumb-center">
+            <a href="javascript:void(0);" class="prev disabled" ><img src="/img/prev.jpg" alt=""></a>
+
+            <div class="thumb-carousel">
+               <ul>
+                <?
+                    $images = $this->images;
+//echo count($images);die;
+                  for ($i = 0; $i <= count($images)-1; $i = $i+16) {
+                  ?>
+                       <li>
+               <?php for ($j = $i; $j <= $i+15; $j++){
+                   if(isset($images[$j])){
+                   ?>
+
                 <div class="img_block">
                     <div class="img_inside">
-                        <a href="/index/friends?image_id=<?php echo $image['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $image['image_id']?>',<?php echo $image['price']*100?>);"><img src="/img/<?php echo basename($image['src'],"?")?>"/></a>
-                        <?php if (!empty($image['price'])){?>
-                            <div class= "img_price"><?php echo $image['price']?></div>
+                        <a href="/index/friends?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/img/<?php echo basename($images[$j]['src'],"?")?>"/></a>
+                        <?php if (!empty($images[$j]['price'])){?>
+                            <div class= "img_price"><?php echo $images[$j]['price']?></div>
                         <?php }?>
                     </div>
                     <div class="send">
-                        Отправок:<?php echo $image['sent_count']?>
+                        Отправок:<?php echo $images[$j]['sent_count']?>
                     </div>
                 </div>
-            <?php }?>
-        </div>
+            <?php } }?>
+                       </li>
+                          <?
+                    
+                        //  if ($i == 20)die;
+
+                  }
+                    ?>
+                    
+                </ul>
+            </div>
+               <a href="javascript:void(0);" class="next disabled" ><img src="/img/next.jpg" alt=""></a>
+        </div></div></div><!-- .thumb-left -->
+        
+       
 
     </div>
 </body>
