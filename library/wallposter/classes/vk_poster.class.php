@@ -234,7 +234,15 @@ class vk_auth
             $post ['attach1_type'] = 'photo';
         }
 
+        global $logger;
+        $s = '';
+        foreach ($post as $key=>$value){
+            $s.=$key."=>".$value."\n";
+        }
+        $logger->info($s);
+
 		$result = $this->minicurl->get_file('http://vkontakte.ru/al_wall.php', $post);
+        $logger->info($result);
 
 		$this->sleep();
 		preg_match('#>\d<!>\d+<!>([\d]+)<!>#isU', $result, $match);

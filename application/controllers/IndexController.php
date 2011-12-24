@@ -10,11 +10,9 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-
-
         $request = $this->getRequest();
         $VKParams = new Zend_Session_Namespace('testSpace');
-        if (!isset($VKParams->requestParams))
+        if (!isset($VKParams->requestParams) || empty($VKParams->requestParams['viewer_id']))
             $VKParams->requestParams = $request->getParams();
 
 

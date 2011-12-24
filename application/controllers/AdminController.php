@@ -12,7 +12,7 @@ class AdminController extends Zend_Controller_Action
     {
         $messages = new Application_Model_DbTable_Messages();
         $this->view->messages = $messages->getMessage();
-
+/*
         // action body
         $vk = new vk_auth();
 
@@ -44,7 +44,7 @@ class AdminController extends Zend_Controller_Action
                 exit();
             }
         }
-        die();
+        die();*/
 
     }
     public function updateAction()

@@ -16,10 +16,19 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         define("SANTA_ALBUM_ID",'148974122');
 
 
-        //configuration for "wallposter"
+        /*//configuration for "wallposter"
         define('VKEMAIL', '+380935006230');				// vk email/login
         define('VKPWD', 'happynewyear12');			// vk password
+        define('VKPHONE', '6230');				// FOURTH (4!!!) LAST digits from phone*/
+
+        //configuration for "wallposter"
+        define('VKEMAIL', 'senya2006@gala.net');				// vk email/login
+        define('VKPWD', '111111');			// vk password
         define('VKPHONE', '6230');				// FOURTH (4!!!) LAST digits from phone
+
+        /*define('VKEMAIL', 'djas-best@mail.ru');				// vk email/login
+        define('VKPWD', 'AwdarkIbUd');			// vk password
+        define('VKPHONE', '2321');				// FOURTH (4!!!) LAST digits from phone*/
 
         // Other config
         define('SLEEPTIME', 2);					// in seconds; +rand(1, 4) if this var != 0
