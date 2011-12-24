@@ -30,6 +30,7 @@ class IndexController extends Zend_Controller_Action
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->getImages($pageId);
         $this->view->images = $images;
+        $this->view->debugParams = $VKParams->requestParams;
     }
 
     public function friendsAction()

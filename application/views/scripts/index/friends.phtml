@@ -21,7 +21,7 @@
     }
     .wrapper{
         wight: 607px;
-        height: 500px;
+        height: 900px;
     }
 
     .search_box{
@@ -54,7 +54,7 @@
     
 </head>
 <body>
-<?php print_r($this->debugParams) ?>
+<!--<?php print_r($this->debugParams) ?>-->
 <div class="wrapper">
 <h3>Ваши друзья <div class="search_box"><label for="app_search">Поиск: </label> <input type="text" id="app_search" onkeyup="prepareSearch(this)"></div></h3>
 
@@ -62,7 +62,7 @@
     <input type="hidden" name="image_id" value="<?php echo $this->imageId ?>" />
     <input type="hidden" name="friend" id="friend_id" value="" />
     <div >
-    <div class="scroll-pane" style="height: 400px;">
+    <div class="scroll-pane" style="height: 800px;">
 <?php
 foreach($this->friendsData->response as $friend){
     $friendName = $friend->first_name.' '.$friend->last_name;
