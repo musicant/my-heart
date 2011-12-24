@@ -27,7 +27,6 @@ class IndexController extends Zend_Controller_Action
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->getImages();
         $this->view->images = $images;
-        $this->view->debugParams = $VKParams->requestParams;
     }
 
     public function friendsAction()
@@ -43,7 +42,6 @@ class IndexController extends Zend_Controller_Action
         $this->view->imageId = $imageId;
         $this->view->currentUserId = $currentUserId;
         $this->view->friendsData = $VK->getFriendsList($currentUserId);
-        $this->view->debugParams = $VKParams->requestParams;
     }
 
 
@@ -82,7 +80,6 @@ class IndexController extends Zend_Controller_Action
         $messageData['message_sent_to'] = $request->getParam('friend');
         $messageData['image_id'] = $imageId;
         $messageData['message'] = 'Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489';
-        $this->view->debugParams = $VKParams->requestParams;
         try {
             $MessagesTable->insert($messageData);
             if (!empty($currentImage['price'])){
