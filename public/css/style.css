@@ -106,6 +106,7 @@ ul li{list-style: none;}
 .my-friend{
     float:left;
     padding:15px !important;
+    width: 50px;
 }
 .friend_name{
     float:left;

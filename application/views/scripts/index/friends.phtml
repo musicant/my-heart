@@ -22,44 +22,116 @@
     .wrapper{
         wight: 607px;
         height: 500px;
-        overflow-y:scroll;
+    }
+
+    .search_box{
+        float: right;
+    }
+    .search_box label{
+        float: left;
+        padding-right: 5px;
+    }
+    .search_box input{
+        border: 0;
+        /*padding: 4px 4px 3px 22px;*/
+        outline: 0;
+        margin: 0px;
+        /*width: 100%;*/
+        border: 1px solid #C0CAD5;
+        font-family: tahoma, tahoma, verdana, arial, sans-serif, Lucida Sans;
+        font-size: 11px;
     }
 </style>
+
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
+    
 </head>
 <body>
 <?php print_r($this->debugParams) ?>
 <div class="wrapper">
-<h3>Ваши друзья</h3>
+<h3>Ваши друзья <div class="search_box"><label for="app_search">Поиск: </label> <input type="text" id="app_search" onkeyup="prepareSearch(this)"></div></h3>
 
-<form action="/index/congratulation">
+<form action="/index/congratulation" name="friend_form" id="friend_form">
     <input type="hidden" name="image_id" value="<?php echo $this->imageId ?>" />
+    <input type="hidden" name="friend" id="friend_id" value="" />
+    <div >
+    <div class="scroll-pane" style="height: 400px;">
 <?php
 foreach($this->friendsData->response as $friend){
     $friendName = $friend->first_name.' '.$friend->last_name;
+    $lowerName = mb_convert_case($friendName, MB_CASE_LOWER, "UTF-8");
     echo '
-    <div class = "friend_block" id="div-friend-id-'.$friend->uid.'">
+    <div class = "friend_block" id="div-friend-id-'.$friend->uid.'" onclick="selectFriend('.$friend->uid.')">
     <div class="my-friend">
     <label for="friend-id-'.$friend->uid.'">
     <img src="'.$friend->photo.'" alt="'.$friendName.'" title="'.$friendName.'">
     </label>
     <div class="hide-input">
-    <input type="radio" name="friend" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'" class="target">
+    '.$lowerName.'
+    '//<input type="radio" name="friend" value="'.$friend->uid.'" id="friend-id-'.$friend->uid.'" class="target">
+.'
     </div>
     </div>
     <div class="friend_name">'.$friendName.'</div>
     </div>';
 }
 ?>
+    </div>
+    </div>
 <div style="clear:both;"></div>
     <div>
         <input type="submit"  class="button_blue" name="sent" value="Отправить">
     </div>
 </form>
 <script type="text/javascript">
-jQuery('.target').change(function(){
-    jQuery('.my-friend').removeClass('my-friend-checked');
+//select friend
+function selectFriend(value){
+    //jQuery(":checked").removeAttr('checked');
+    //jQuery('#friend-id-'+value).attr('checked', 'checked');
+    jQuery('#friend_id').val(value);
+    jQuery('.friend_block').removeClass('my-friend-checked');
+    jQuery('#div-friend-id-'+value).addClass('my-friend-checked');
+}
+/*jQuery('.target').change(function(){
+    jQuery('.friend_block').removeClass('my-friend-checked');
     jQuery('#div-friend-id-'+jQuery(this).val()).addClass('my-friend-checked');
-})
+});*/
+
+jQuery("#friend_form").submit(function(){
+    if (jQuery('#friend_id').val()==''){
+        alert('Нужно выбрать друга');
+        return false;
+    }
+
+    return true;
+});
+
+var searchTime;
+function prepareSearch(el){
+    text = el.value.toLowerCase();
+    clearTimeout(searchTime);
+    searchTime = setTimeout("searchFriend('"+text+"')",500);
+}
+
+function searchFriend(text){
+    jQuery(".friend_block").css('display','none');
+    jQuery(".my-friend-checked").css('display','block');
+	jQuery(".friend_block:contains('"+text+"')").css('display','block');
+    jQuery('.scroll-pane').jScrollPane();
+}
+
+//add scroller
+jQuery(function()
+{
+	jQuery('.scroll-pane').jScrollPane();
+});
 </script>
 </div>
 </body>

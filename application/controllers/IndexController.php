@@ -30,7 +30,6 @@ class IndexController extends Zend_Controller_Action
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->getImages($pageId);
         $this->view->images = $images;
-        $this->view->debugParams = $VKParams->requestParams;
     }
 
     public function friendsAction()
@@ -38,7 +37,7 @@ class IndexController extends Zend_Controller_Action
         // action body
         $VKParams = new Zend_Session_Namespace('testSpace');
         $VK = new Application_Model_VK();
-        $currentUserId = $VKParams->requestParams['user_id'];
+        $currentUserId = $VKParams->requestParams['viewer_id'];
 
         $request = $this->getRequest();
         $imageId = $request->getParam('image_id');
@@ -46,7 +45,6 @@ class IndexController extends Zend_Controller_Action
         $this->view->imageId = $imageId;
         $this->view->currentUserId = $currentUserId;
         $this->view->friendsData = $VK->getFriendsList($currentUserId);
-        $this->view->debugParams = $VKParams->requestParams;
     }
 
 
@@ -54,7 +52,7 @@ class IndexController extends Zend_Controller_Action
     {
         // action body
         $VKParams = new Zend_Session_Namespace('testSpace');
-        $currentUserId = $VKParams->requestParams['user_id'];
+        $currentUserId = $VKParams->requestParams['viewer_id'];
 
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->fetchAll()->toArray();
@@ -73,7 +71,7 @@ class IndexController extends Zend_Controller_Action
         $ImagesTable = new Application_Model_DbTable_Images();
 
         $VKParams = new Zend_Session_Namespace('testSpace');
-        $currentUserId = $VKParams->requestParams['user_id'];
+        $currentUserId = $VKParams->requestParams['viewer_id'];
 
         $imageId = $request->getParam('image_id');
         $currentImage = $ImagesTable->fetchRow($ImagesTable->select()->where('image_id=?',$imageId));
@@ -85,7 +83,6 @@ class IndexController extends Zend_Controller_Action
         $messageData['message_sent_to'] = $request->getParam('friend');
         $messageData['image_id'] = $imageId;
         $messageData['message'] = 'Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489';
-        $this->view->debugParams = $VKParams->requestParams;
         try {
             $MessagesTable->insert($messageData);
             if (!empty($currentImage['price'])){
