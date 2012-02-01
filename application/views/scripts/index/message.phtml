@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+<script type="text/javascript" src="/js/jquery.min.js" ></script>
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
+
+</head>
+<body>
+<!--<?php print_r($this->debugParams) ?>-->
+<div class="wrapper">
+<h3>Введите текст сообщения</h3>
+<h5>Не более 300 символов</h5>
+
+    <div >
+    <div class="scroll-pane" style="height: 800px;">
+        <form action="/index/message" name="address_form" id="address_form" method="POST">
+        <label for="message">Сообщение</label>
+        <textarea rows="20" cols="50" name="message" id="message"><?php echo $this->message ?></textarea><br/>
+        <input type="submit" name="send" value="Отправить">
+        </form>
+        <form action="/index/address" name="back_form" id="back_form">
+            <INPUT type="submit" name="back" value="Назад">
+        </form>
+    </div>
+    </div>
+<div style="clear:both;"></div>
+    <div>
+    </div>
+
+
+</div>
+</body>
+</html>

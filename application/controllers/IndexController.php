@@ -2,6 +2,7 @@
 
 class IndexController extends Zend_Controller_Action
 {
+    private $_price = 2;
 
     public function init()
     {
@@ -9,6 +10,14 @@ class IndexController extends Zend_Controller_Action
     }
 
     public function indexAction()
+    {
+        //clear data in session
+        $DataStorage = new Zend_Session_Namespace('dataStorage');
+        $DataStorage->unsetAll();
+        $this->_forward("images");
+    }
+
+    public function imagesAction()
     {
         $request = $this->getRequest();
         $VKParams = new Zend_Session_Namespace('testSpace');
@@ -31,7 +40,7 @@ class IndexController extends Zend_Controller_Action
         $this->view->debugParams = $VKParams->requestParams;
     }
 
-    public function friendsAction()
+    /*public function friendsAction()
     {
         // action body
         $VKParams = new Zend_Session_Namespace('testSpace');
@@ -44,10 +53,61 @@ class IndexController extends Zend_Controller_Action
         $this->view->imageId = $imageId;
         $this->view->currentUserId = $currentUserId;
         $this->view->friendsData = $VK->getFriendsList($currentUserId);
+    }*/
+
+    public function addressAction()
+    {
+        // action body
+        $VKParams = new Zend_Session_Namespace('testSpace');
+        $DataStorage = new Zend_Session_Namespace('dataStorage');
+        $currentUserId = $VKParams->requestParams['viewer_id'];
+
+        $request = $this->getRequest();
+        $imageId = $request->getParam('image_id');
+
+        $params = $request->getParams();
+        if (!empty($params['first_name'])){
+            $addressParams = $params;
+            $DataStorage->addressParams = $addressParams;
+            $this->_forward('message');
+        } else {
+            $addressParams = $DataStorage->addressParams;
+        }
+
+        if (!empty($imageId)){
+            $DataStorage->imageId = $imageId;
+        } else {
+            $imageId = $DataStorage->imageId;
+        }
+
+
+        $this->view->imageId = $imageId;
+        $this->view->currentUserId = $currentUserId;
+        $this->view->addressParams = $addressParams;
+    }
+
+    public function messageAction()
+    {
+        $DataStorage = new Zend_Session_Namespace('dataStorage');
+        $request = $this->getRequest();
+        $message = $request->getParam('message');
+        if (!empty($message)){
+            $DataStorage->message = $message;
+            $this->_forward("pay");
+        } else {
+            $message = $DataStorage->message;
+        }
+
+        $this->view->message = $message;
+    }
+
+    public function payAction()
+    {
+        $this->view->price = $this->_price;
     }
 
 
-    public function postCardAction()
+    /*public function postCardAction()
     {
         // action body
         $VKParams = new Zend_Session_Namespace('testSpace');
@@ -62,31 +122,41 @@ class IndexController extends Zend_Controller_Action
         $this->view->images = $images;
         $this->view->myFriendId = $myFriendId;
         $this->view->currentUserId = $currentUserId;
-    }
+    }*/
 
     public function congratulationAction(){
         $request = $this->getRequest();
-        $MessagesTable = new Application_Model_DbTable_Messages();
-        $ImagesTable = new Application_Model_DbTable_Images();
+
+        $DataStorage = new Zend_Session_Namespace('dataStorage');
 
         $VKParams = new Zend_Session_Namespace('testSpace');
         $currentUserId = $VKParams->requestParams['viewer_id'];
 
-        $imageId = $request->getParam('image_id');
-        $currentImage = $ImagesTable->fetchRow($ImagesTable->select()->where('image_id=?',$imageId));
-
         $VK = new Application_Model_VK();
 
-        $messageData = array();
-        $messageData['message_sent_from'] = $currentUserId;
-        $messageData['message_sent_to'] = $request->getParam('friend');
-        $messageData['image_id'] = $imageId;
-        $messageData['message'] = 'Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489';
-        try {
-            $MessagesTable->insert($messageData);
-            if (!empty($currentImage['price'])){
-                $VK->getMoneyFromUser($currentUserId,$currentImage['price']);
+        $sendArray = array();
+        $sendArray['message_text'] = $DataStorage->message;
+        $sendArray['created_date'] = gmdate("Y-m-d H:i:s");
+        $sendArray['image_id'] = $DataStorage->imageId;
+        $sendArray['address_first_name'] = $DataStorage->addressParams['first_name'];
+        $sendArray['address_last_name'] = $DataStorage->addressParams['last_name'];
+        $sendArray['address_father_name'] = $DataStorage->addressParams['father_name'];
+        $sendArray['address_country'] = $DataStorage->addressParams['country'];
+        $sendArray['address_state'] = $DataStorage->addressParams['state'];
+        $sendArray['address_city'] = $DataStorage->addressParams['city'];
+        $sendArray['address_street'] = $DataStorage->addressParams['street'];
+        $sendArray['address_house'] = $DataStorage->addressParams['house'];
+        $sendArray['address_room'] = $DataStorage->addressParams['room'];
+        $sendArray['address_zip'] = $DataStorage->addressParams['zip'];
+        $sendArray['contact_phone'] = $DataStorage->addressParams['phone'];
+        $sendArray['send_from'] = $currentUserId;
 
+        $SendTable = new Application_Model_DbTable_Send();
+        try {
+            $SendTable->insert($sendArray);
+            if (!empty($this->_price)){
+                $VK->getMoneyFromUser($currentUserId,$this->_price);
+                $DataStorage->unsetAll();
             }
         } catch (Zend_Exception $e){
 

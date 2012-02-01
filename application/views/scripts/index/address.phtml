@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+<script type="text/javascript" src="/js/jquery.min.js" ></script>
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
+
+</head>
+<body>
+<!--<?php print_r($this->debugParams) ?>-->
+<div class="wrapper">
+<h3>Введите адрес</h3>
+
+    <div >
+    <div class="scroll-pane" style="height: 800px;">
+        ImageId: <?php echo $this->imageId ?>
+        <form action="/index/address" name="address_form" id="address_form" method="POST">
+        <label for="first_name">Имя</label> <input type="text" id="first_name" name="first_name" value="<?php echo $this->addressParams['first_name']?>"><br/>
+        <label for="last_name">Фамилия</label> <input type="text" id="last_name" name="last_name" value="<?php echo $this->addressParams['last_name']?>"><br/>
+        <label for="father_name">Отчество</label> <input type="text" id="father_name" name="father_name" value="<?php echo $this->addressParams['father_name']?>"><br/>
+        <label for="country">Страна</label> <input type="text" id="country" name="country" value="<?php echo $this->addressParams['country']?>"><br/>
+        <label for="state">Область</label> <input type="text" id="state" name="state" value="<?php echo $this->addressParams['state']?>"><br/>
+        <label for="city">Город</label> <input type="text" id="city" name="city" value="<?php echo $this->addressParams['city']?>"><br/>
+        <label for="street">Улица</label> <input type="text" id="street" name="street" value="<?php echo $this->addressParams['street']?>"><br/>
+        <label for="house">Дом</label> <input type="text" id="house" name="house" value="<?php echo $this->addressParams['house']?>"><br/>
+        <label for="room">Квартира</label> <input type="text" id="room" name="room" value="<?php echo $this->addressParams['room']?>"><br/>
+        <label for="zip">Индекс</label> <input type="text" id="zip" name="zip" value="<?php echo $this->addressParams['zip']?>"><br/>
+        <label for="phone">Телефон</label> <input type="text" id="phone" name="phone" value="<?php echo $this->addressParams['phone']?>"><br/>
+
+        <input type="submit" name="send" value="Отправить">
+        </form>
+        <form action="/index/images" name="back_form" id="back_form">
+            <INPUT type="submit" name="back" value="Назад">
+        </form>
+    </div>
+    </div>
+<div style="clear:both;"></div>
+    <div>
+    </div>
+
+
+</div>
+</body>
+</html>

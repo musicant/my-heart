@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+
+    <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+<script type="text/javascript">
+
+    VK.init(function() {
+
+     // API initialization succeeded
+     // Your code here
+    });
+
+    var userBalance;
+    var p_url;
+    var p_price;
+    VK.api('getUserBalance',{},function(data){ userBalance = data.response;});
+
+    VK.addCallback('onBalanceChanged', balanceChanged);
+
+    function balanceChanged(balance){
+        VK.api('getUserBalance',{},function(data){
+            if (userBalance<data.response){
+                userBalance = data.response;
+                byThisImage(p_url,p_price);
+            } else {
+                userBalance = data.response;
+            }
+        });
+    };
+
+    function byThisImage(url,price){
+        p_url = url;
+        p_price = price;
+        if(userBalance<price){
+            VK.callMethod('showPaymentBox', (price-userBalance)/100);
+            return false;
+        } else {
+            window.location = url;
+            return true;
+        }
+    }
+</script>
+</head>
+<body>
+<h2>Стоимость отправки составляет <?php echo $this->price?> голоса(ов)</h2>
+
+<input type="submit" onclick="return byThisImage('/index/congratulation',<?php echo $this->price*100 ?>);">
+<form action="/index/message" name="back_form" id="back_form">
+    <INPUT type="submit" name="back" value="Назад">
+</form>
+
+
+</body>
