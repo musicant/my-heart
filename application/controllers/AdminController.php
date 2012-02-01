@@ -12,7 +12,7 @@ class AdminController extends Zend_Controller_Action
     {
         $messages = new Application_Model_DbTable_Messages();
         $this->view->messages = $messages->getMessage();
-
+/*
         // action body
         $vk = new vk_auth();
 
@@ -44,7 +44,7 @@ class AdminController extends Zend_Controller_Action
                 exit();
             }
         }
-        die();
+        die();*/
 
     }
     public function updateAction()
@@ -66,14 +66,14 @@ class AdminController extends Zend_Controller_Action
         $photos = $VK->getPhotos();
         foreach ($photos->response as $photo){
 
-            $file_path = $imgPath.basename($photo->src_big,"?");
+            $file_path = $imgPath.basename($photo->src_small,"?");
             if (!file_exists($file_path))
-                file_put_contents($file_path,file_get_contents($photo->src_big));
+                file_put_contents($file_path,file_get_contents($photo->src_small));
 
             $row = $ImagesTable->fetchRow($ImagesTable->select()->where('photo_id=?',SANTA_ID."_".$photo->pid));
             if (!empty($row['image_id'])){
                 $imageArray = array();
-                $imageArray['src'] = $photo->src_big;
+                $imageArray['src'] = $photo->src_small;
                 $ImagesTable->update($imageArray,'image_id='.$row['image_id']);
             } else {
                 $imageArray = array();

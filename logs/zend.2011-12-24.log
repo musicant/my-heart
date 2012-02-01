@@ -1,0 +1,166 @@
+2011-12-24T18:20:48+02:00 INFO (6): act=>post
+al=>1
+facebook_export=>
+friends_only=>
+hash=>d37cef706724b26ce8
+message=>Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489
+note_title=>
+official=>
+status_export=>
+to_id=>10241847
+type=>feed
+attach1=>156671327_273187760
+attach1_type=>photo
+
+2011-12-24T18:20:48+02:00 INFO (6): HTTP/1.1 200 OK
+Server: nginx/0.7.59
+Date: Sat, 24 Dec 2011 16:20:48 GMT
+Content-Type: text/html; charset=windows-1251
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny4
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixchk=5; expires=Thu, 27-Dec-2012 20:51:29 GMT; path=/; domain=.vkontakte.ru
+Set-Cookie: remixlang=1; expires=Wed, 02-Jan-2013 06:10:01 GMT; path=/; domain=.vkontakte.ru
+Vary: Accept-Encoding
+Content-Length: 29
+
+<!--6849<!><!>0<!>5303<!>0<!>
+2011-12-24T18:23:21+02:00 INFO (6): act=>post
+al=>1
+facebook_export=>
+friends_only=>
+hash=>d37cef706724b26ce8
+message=>Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489
+note_title=>
+official=>
+status_export=>
+to_id=>10241847
+type=>feed
+attach1=>156671327_273187817
+attach1_type=>photo
+
+2011-12-24T18:23:22+02:00 INFO (6): HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Sat, 24 Dec 2011 16:23:22 GMT
+Content-Type: text/html; charset=windows-1251
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny4
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixchk=5; expires=Wed, 02-Jan-2013 04:59:28 GMT; path=/; domain=.vkontakte.ru
+Set-Cookie: remixlang=1; expires=Tue, 25-Dec-2012 21:23:30 GMT; path=/; domain=.vkontakte.ru
+Vary: Accept-Encoding
+Content-Length: 29
+
+<!--6849<!><!>0<!>5303<!>0<!>
+2011-12-24T18:26:27+02:00 INFO (6): act=>post
+al=>1
+facebook_export=>
+friends_only=>
+hash=>0d555c75eb9674e3b7
+message=>Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489
+note_title=>
+official=>
+status_export=>
+to_id=>10241847
+type=>feed
+attach1=>156671327_273187765
+attach1_type=>photo
+
+2011-12-24T18:26:27+02:00 INFO (6): HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Sat, 24 Dec 2011 16:26:27 GMT
+Content-Type: text/html; charset=windows-1251
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny4
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixchk=5; expires=Sat, 29-Dec-2012 08:51:25 GMT; path=/; domain=.vkontakte.ru
+Vary: Accept-Encoding
+Content-Length: 46
+
+<!--6849<!><!>0<!>5303<!>8<!>������ �������<!>
+2011-12-24T18:29:03+02:00 INFO (6): act=>post
+al=>1
+facebook_export=>
+friends_only=>
+hash=>0d555c75eb9674e3b7
+message=>Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489
+note_title=>
+official=>
+status_export=>
+to_id=>10241847
+type=>feed
+attach1=>156671327_273187765
+attach1_type=>photo
+
+2011-12-24T18:29:04+02:00 INFO (6): HTTP/1.1 200 OK
+Server: nginx/0.7.59
+Date: Sat, 24 Dec 2011 16:29:04 GMT
+Content-Type: text/html; charset=windows-1251
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny9
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixchk=5; expires=Fri, 14-Dec-2012 02:30:37 GMT; path=/; domain=.vkontakte.ru
+Vary: Accept-Encoding
+Content-Length: 46
+
+<!--6849<!><!>0<!>5303<!>8<!>������ �������<!>
+2011-12-24T18:30:35+02:00 INFO (6): act=>post
+al=>1
+facebook_export=>
+friends_only=>
+hash=>d20d279a6f424822e8
+message=>Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489
+note_title=>
+official=>
+status_export=>
+to_id=>10241847
+type=>feed
+attach1=>156671327_273187765
+attach1_type=>photo
+
+2011-12-24T18:30:35+02:00 INFO (6): HTTP/1.1 200 OK
+Server: nginx/0.7.59
+Date: Sat, 24 Dec 2011 16:30:35 GMT
+Content-Type: text/html; charset=windows-1251
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny3
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixchk=5; expires=Fri, 28-Dec-2012 03:23:43 GMT; path=/; domain=.vkontakte.ru
+Set-Cookie: remixlang=1; expires=Sun, 16-Dec-2012 03:58:40 GMT; path=/; domain=.vkontakte.ru
+Vary: Accept-Encoding
+Content-Length: 29
+
+<!--6849<!><!>0<!>5303<!>0<!>
+2011-12-24T18:33:31+02:00 INFO (6): act=>post
+al=>1
+facebook_export=>
+friends_only=>
+hash=>9ec08add466996b102
+message=>Дед Мроз принес тебе открытку на стену. Отправляй окрытки друзьям http://vkontakte.ru/app2711477_5701489
+note_title=>
+official=>
+status_export=>
+to_id=>13085087
+type=>feed
+attach1=>156671327_273187760
+attach1_type=>photo
+
+2011-12-24T18:33:31+02:00 INFO (6): HTTP/1.1 200 OK
+Server: nginx/0.7.59
+Date: Sat, 24 Dec 2011 16:33:31 GMT
+Content-Type: text/html; charset=windows-1251
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny3
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixchk=5; expires=Sun, 23-Dec-2012 23:23:49 GMT; path=/; domain=.vkontakte.ru
+Set-Cookie: remixlang=1; expires=Sat, 22-Dec-2012 20:20:00 GMT; path=/; domain=.vkontakte.ru
+Vary: Accept-Encoding
+Content-Length: 47
+
+<!--6849<!><!>0<!>5303<!>8<!>������� �������<!>

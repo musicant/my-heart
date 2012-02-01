@@ -65,10 +65,13 @@ ul li{list-style: none;}
    box-shadow:rgba(200,200,200,1) 0 0 0;
 }
 .img_inside{
-   float:left;
+    height: 75px;
     background:#fff;
     padding:5px;
     position: relative;
+}
+.img_inside img{
+    magrin: auto;
 }
 .img_price{
     background: url("../img/star.png") no-repeat;
@@ -92,9 +95,15 @@ ul li{list-style: none;}
     width: 120px;
 }
 
-.img_block img{
-   width:110px;
+.img_block{
+    wight: 130px;
+    height: 100px;
+    text-align: center;
 }
+.img_inside{
+
+}
+
 .friend_block{
     float:left;
     height:75px;
