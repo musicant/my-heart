@@ -38,7 +38,6 @@ class IndexController extends Zend_Controller_Action
         //get images list:
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->getImages($group);
-       
         $this->view->images = $images;
         $this->view->debugParams = $VKParams->requestParams;
     }
