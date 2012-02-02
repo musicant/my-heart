@@ -2,15 +2,37 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+     <script type="text/javascript" src="/js/bootstrap.js" ></script>
+   <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+ <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript">
+         WebFontConfig = {
+             google: { families: [ 'Marck+Script::latin,cyrillic' ] }
+         };
+         (function() {
+             var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+               '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
 </head>
 <body id="body" height="800" style="height: 800px; overflow-y:scroll;">
 <!--<?php print_r($this->debugParams) ?>-->
+<div class="wrapper" id="wrapper">
+     <div class="empty">Служба св. Валентина</div>
     <div>
-        <img class="img_congratulation" src="/img/ded_moroz.jpg" alt="">
+        <!--img class="img_congratulation" src="/img/ded_moroz.jpg" alt=""-->
         <div class="congratulation">
-            <p>Вітаємо! Ваше повідомлення поставленно до черги. Як тільки Дід Мороз його прочитає він одразу доставить його на стіну вашому другу.</p>
-            <a href="/index">ІЩЕ!</a>
+            <p class="cong_text">Вітаємо! Ваше повідомлення поставленно до черги. Як тільки Дід Мороз його прочитає він одразу доставить його на стіну вашому другу.</p>
+            <a href="/index" class="btn">Назад</a>
         </div>
     </div>
+     <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+  </div>
 </body>
 </html>

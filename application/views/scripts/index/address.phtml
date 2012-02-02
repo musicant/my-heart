@@ -11,41 +11,59 @@
 
 <!-- the jScrollPane script -->
 <script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
-
+    <script type="text/javascript" src="/js/bootstrap.js" ></script>
+   <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+ <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+      
+        <script type="text/javascript">
+         WebFontConfig = {
+             google: { families: [ 'Marck+Script::latin,cyrillic' ] }
+         };
+         (function() {
+             var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+               '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
 </head>
 <body>
 <!--<?php print_r($this->debugParams) ?>-->
-<div class="wrapper">
-<h3>Введите адрес</h3>
+<div class="wrapper" id="wrapper">
+
+    <div class="empty">Служба св. Валентина</div>
+    <h3>Введите адрес</h3>
 
     <div >
-    <div class="scroll-pane" style="height: 800px;">
+    <div class="scroll-pane" >
         ImageId: <?php echo $this->imageId ?>
-        <form action="/index/address" name="address_form" id="address_form" method="POST">
-        <label for="first_name">Имя</label> <input type="text" id="first_name" name="first_name" value="<?php echo $this->addressParams['first_name']?>"><br/>
+        <form action="/index/address" name="address_form" id="address_form" method="POST" class="form-inline">
+        <label for="first_name">Имя</label> <input class="span3 " type="text" id="first_name" name="first_name" value="<?php echo $this->addressParams['first_name']?>"><br/>
         <label for="last_name">Фамилия</label> <input type="text" id="last_name" name="last_name" value="<?php echo $this->addressParams['last_name']?>"><br/>
         <label for="father_name">Отчество</label> <input type="text" id="father_name" name="father_name" value="<?php echo $this->addressParams['father_name']?>"><br/>
-        <label for="country">Страна</label> <input type="text" id="country" name="country" value="<?php echo $this->addressParams['country']?>"><br/>
-        <label for="state">Область</label> <input type="text" id="state" name="state" value="<?php echo $this->addressParams['state']?>"><br/>
-        <label for="city">Город</label> <input type="text" id="city" name="city" value="<?php echo $this->addressParams['city']?>"><br/>
+        <!--label for="country">Страна</label> <input type="text" id="country" name="country" value="<?php echo $this->addressParams['country']?>"><br/>
+        <label for="state">Область</label> <input type="text" id="state" name="state" value="<?php echo $this->addressParams['state']?>"><br/-->
+        <label for="city">Город</label> <input type="text" id="city" name="city" value="Черкаси"><br/>
         <label for="street">Улица</label> <input type="text" id="street" name="street" value="<?php echo $this->addressParams['street']?>"><br/>
         <label for="house">Дом</label> <input type="text" id="house" name="house" value="<?php echo $this->addressParams['house']?>"><br/>
         <label for="room">Квартира</label> <input type="text" id="room" name="room" value="<?php echo $this->addressParams['room']?>"><br/>
         <label for="zip">Индекс</label> <input type="text" id="zip" name="zip" value="<?php echo $this->addressParams['zip']?>"><br/>
-        <label for="phone">Телефон</label> <input type="text" id="phone" name="phone" value="<?php echo $this->addressParams['phone']?>"><br/>
+        <!--label for="phone">Телефон</label> <input type="text" id="phone" name="phone" value="<?php echo $this->addressParams['phone']?>"><br/-->
 
-        <input type="submit" name="send" value="Отправить">
+        <input type="submit" name="send" value="Отправить" class="btn">
+             <form action="/index/images" name="back_form" id="back_form" >
+            <INPUT type="submit" name="back" value="Назад" class="btn">
         </form>
-        <form action="/index/images" name="back_form" id="back_form">
-            <INPUT type="submit" name="back" value="Назад">
         </form>
+
     </div>
     </div>
 <div style="clear:both;"></div>
-    <div>
-    </div>
-
-
+   
+ <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
 </div>
 </body>
 </html>

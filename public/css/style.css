@@ -1,13 +1,15 @@
-
+@import url(http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin);
 
 * {margin: 0; padding: 0;}
 html {height: 100%}
 body {
-	font: 11px/14px tahoma,arial,verdana,sans-serif,Lucida Sans;
+    font-family: 'Marck Script', cursive;
+	/* font: 11px/14px tahoma,arial,verdana,sans-serif,Lucida Sans; */
+    font: 11px/14px;
 	width: 600px;
 	height: 100%;
 	text-align: left;
-	background: #fff;
+	background: #f0e8e3;
 	 color:#2B587A;
 }
 
@@ -25,7 +27,7 @@ ul li{list-style: none;}
 .hide{ display: none;}
 
 #wrapper {
-	background: url(../img/bg.jpg) no-repeat right 0px;
+	background: url(../img/header.png) no-repeat right 0px;
 	width: 100%;
     max-height:1500px;
 	min-height: 100%;
@@ -41,8 +43,11 @@ ul li{list-style: none;}
     overflow-y: scroll;
 }
 .empty{
-    height:390px;
+
     width:600px;
+    text-align:center;
+    padding:150px 0 15px 11px;; 
+    font-size:30px;
 }
 
 .menu{
@@ -50,7 +55,8 @@ ul li{list-style: none;}
     height:30px;
     font-size:11px;
     border-bottom:1px solid #E7EAED;
-    padding:10px 10px 0 10px;
+    padding:10px 10px 10px 10px;
+    text-align:center;
 }
 .img_block{
    float:left;
@@ -122,7 +128,7 @@ ul li{list-style: none;}
     padding-top:30px;
     font-weight:bold;
 }
-.wrapper h3{
+.wrapper h3,.wrapper h5{
     padding:10px 0px 10px 0;
     margin:0 15px;
     font-weight:bold;
@@ -156,8 +162,8 @@ ul li{list-style: none;}
 }
 .congratulation a{
     text-decoration:none;
-    color:#fff;
-    font-size:11px;
+  
+    font-size:20px;
 }
 .thumb-left, .thumb-right, .thumb-center{
     height: 500px;
@@ -175,4 +181,20 @@ ul li{list-style: none;}
  .next, .prev{
      padding:220px 2px 2px 2px ;
     width:20px;
+}
+.footer{
+    text-align:center;
+    overflow:hidden;
+}
+#address_form{
+    padding:15px;
+}
+#back_form{
+    float:left;
+    width:100px;
+}
+.cong_text{
+     font-size: 28px;
+    line-height: 30px;
+    padding: 21px;
 }

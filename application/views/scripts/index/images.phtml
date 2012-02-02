@@ -1,113 +1,117 @@
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
-<script type="text/javascript" src="/js/jquery.min.js" ></script>
-    <script type="text/javascript" src="/js/jcarousellite_1.0.1.min.js" ></script>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+        <script type="text/javascript" src="/js/jquery.min.js" ></script>
+        <script type="text/javascript" src="/js/jcarousellite_1.0.1.min.js" ></script>
+        <script type="text/javascript" src="/js/bootstrap.js" ></script>
+        <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+        <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+        <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+        <script type="text/javascript">
+         WebFontConfig = {
+             google: { families: [ 'Marck+Script::latin,cyrillic' ] }
+         };
+         (function() {
+             var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+               '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+            // thumb-carousel
+             $(".thumb-carousel").jCarouselLite({
+                btnNext: ".thumb-center .next",
+                btnPrev: ".thumb-center .prev",
+                visible: 1,
+                circular: false
+             });
 
-<script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-// thumb-carousel
-    $(".thumb-carousel").jCarouselLite({
-        btnNext: ".thumb-center .next",
-        btnPrev: ".thumb-center .prev",
-        visible: 1,
-        circular: false
-    });
+            });
+            VK.init(function() {
+                // API initialization succeeded
+                // Your code here
+            });
+            VK.callMethod("resizeWindow", 680, 890);
+                var userBalance;
+                var p_url;
+                var p_price;
+                VK.api('getUserBalance',{},function(data){ userBalance = data.response; });
+                VK.addCallback('onBalanceChanged', balanceChanged);
 
-});
-    VK.init(function() {
+                function balanceChanged(balance){
+                    VK.api('getUserBalance',{},function(data){
+                        if (userBalance<data.response){
+                            userBalance = data.response;
+                            byThisImage(p_url,p_price);
+                        } else {
+                            userBalance = data.response;
+                        }
+                    });
+            };
 
-     // API initialization succeeded
-     // Your code here
-    });
-    VK.callMethod("resizeWindow", 680, 890);
-
-
-    var userBalance;
-    var p_url;
-    var p_price;
-    VK.api('getUserBalance',{},function(data){ userBalance = data.response; });
-    
-    VK.addCallback('onBalanceChanged', balanceChanged);
-
-    function balanceChanged(balance){
-        VK.api('getUserBalance',{},function(data){
-            if (userBalance<data.response){
-                userBalance = data.response;
-                byThisImage(p_url,p_price);
-            } else {
-                userBalance = data.response;
+            function byThisImage(url,price){
+                p_url = url;
+                p_price = price;
+                if(userBalance<price){
+                    VK.callMethod('showPaymentBox', (price-userBalance)/100);
+                    return false;
+                } else {
+                    window.location = url;
+                    return true;
+                }
             }
-        });
-    };
-
-    function byThisImage(url,price){
-        p_url = url;
-        p_price = price;
-        if(userBalance<price){
-            VK.callMethod('showPaymentBox', (price-userBalance)/100);
-            return false;
-        } else {
-            window.location = url;
-            return true;
-        }
-    }
-
-
-
     </script>
 </head>
 <body id="body">
 <!--<?php print_r($this->debugParams) ?>-->
     <div id="wrapper">
-        <div class="empty"></div>
+        <div class="empty">Служба св. Валентина</div>
         <div class="menu">
-            <a href="/admin">Админ</a>
+            <a href="/admin" class="btn">Админ</a>
+            <a href="#" class="btn">Мой кабинет</a>
+            <a href="#" class="btn">Открытки</a>
+            <a href="#" class="btn">Hand-made</a>
         </div>
         <div class="thumb-left"><div class="thumb-right"><div class="thumb-center">
             <a href="javascript:void(0);" class="prev disabled" ><img src="/img/prev.jpg" alt=""></a>
-
             <div class="thumb-carousel">
                <ul>
                 <?
-                    $images = $this->images;
-//echo count($images);die;
-                  for ($i = 0; $i <= count($images)-1; $i = $i+16) {
-                  ?>
-                       <li>
-               <?php for ($j = $i; $j <= $i+15; $j++){
-                   if(isset($images[$j])){
-                   ?>
-
-                <div class="img_block">
-                    <div class="img_inside">
-                        <a href="/index/address?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/img/<?php echo basename($images[$j]['src'],"?")?>"/></a>
-                        <?php if (!empty($images[$j]['price'])){?>
-                            <div class= "img_price"><?php echo $images[$j]['price']?></div>
-                        <?php }?>
-                    </div>
-                    <div class="send">
-                        Отправок:<?php echo $images[$j]['sent_count']?>
-                    </div>
-                </div>
-            <?php } }?>
-                       </li>
-                          <?
-                    
-                        //  if ($i == 20)die;
-
-                  }
+                  $images = $this->images;
+                  for ($i = 0; $i <= count($images)-1; $i = $i+9) {
+                ?>
+                <li>
+                    <?php for ($j = $i; $j <= $i+8; $j++){
+                              if(isset($images[$j])){
                     ?>
+
+                    <div class="img_block">
+                        <div class="img_inside">
+                            <a href="/index/address?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/img/<?php echo basename($images[$j]['src'],"?")?>"/></a>
+                             <?php if (!empty($images[$j]['price'])){?>
+                                <div class= "img_price"><?php echo $images[$j]['price']?></div>
+                             <?php }?>
+                        </div>
+                        <div class="send">
+                            Отправок:<?php echo $images[$j]['sent_count']?>
+                        </div>
+                    </div>
+                <?php } }?>
+                 </li>
+                 <? } ?>
                     
-                </ul>
+              </ul>
             </div>
                <a href="javascript:void(0);" class="next disabled" ><img src="/img/next.jpg" alt=""></a>
         </div></div></div><!-- .thumb-left -->
-        
-       
-
+ <div class="footer"><img src="img/footer.png" alt=""></div>
     </div>
+
 </body>
 </html>

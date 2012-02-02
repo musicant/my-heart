@@ -6,6 +6,7 @@ class IndexController extends Zend_Controller_Action
 
     public function init()
     {
+        
         /* Initialize action controller here */
     }
 
@@ -14,6 +15,7 @@ class IndexController extends Zend_Controller_Action
         //clear data in session
         $DataStorage = new Zend_Session_Namespace('dataStorage');
         $DataStorage->unsetAll();
+
         $this->_forward("images");
     }
 

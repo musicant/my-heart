@@ -11,31 +11,32 @@
 
 <!-- the jScrollPane script -->
 <script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js" ></script>
+   <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
 
 </head>
 <body>
 <!--<?php print_r($this->debugParams) ?>-->
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
+     <div class="empty">Служба св. Валентина</div>
 <h3>Введите текст сообщения</h3>
 <h5>Не более 300 символов</h5>
 
     <div >
-    <div class="scroll-pane" style="height: 800px;">
+    <div class="scroll-pane" >
         <form action="/index/message" name="address_form" id="address_form" method="POST">
         <label for="message">Сообщение</label>
-        <textarea rows="20" cols="50" name="message" id="message"><?php echo $this->message ?></textarea><br/>
-        <input type="submit" name="send" value="Отправить">
+        <textarea rows="10" cols="50" name="message" id="message"c class="input-xxlarge" ><?php echo $this->message ?></textarea><br/>
+        <input type="submit" name="send" value="Отправить" class="btn">
+         <form action="/index/address" name="back_form" id="back_form">
+            <INPUT type="submit" name="back" value="Назад" class="btn">
         </form>
-        <form action="/index/address" name="back_form" id="back_form">
-            <INPUT type="submit" name="back" value="Назад">
         </form>
+
     </div>
     </div>
 <div style="clear:both;"></div>
-    <div>
-    </div>
-
-
-</div>
+    <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+  </div>
 </body>
 </html>

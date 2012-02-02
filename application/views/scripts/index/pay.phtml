@@ -4,6 +4,24 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
 
     <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+     <script type="text/javascript" src="/js/bootstrap.js" ></script>
+   <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+ <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript">
+         WebFontConfig = {
+             google: { families: [ 'Marck+Script::latin,cyrillic' ] }
+         };
+         (function() {
+             var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+               '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
 <script type="text/javascript">
 
     VK.init(function() {
@@ -44,12 +62,18 @@
 </script>
 </head>
 <body>
+<div class="wrapper" id="wrapper">
+     <div class="empty">Служба св. Валентина</div>
 <h2>Стоимость отправки составляет <?php echo $this->price?> голоса(ов)</h2>
 
-<input type="submit" onclick="return byThisImage('/index/congratulation',<?php echo $this->price*100 ?>);">
+<input class="btn" type="submit" onclick="return byThisImage('/index/congratulation',<?php echo $this->price*100 ?>);">
 <form action="/index/message" name="back_form" id="back_form">
-    <INPUT type="submit" name="back" value="Назад">
+    <INPUT type="submit" name="back" value="Назад" class="btn">
 </form>
 
+ <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+    
 
+
+</div>
 </body>
