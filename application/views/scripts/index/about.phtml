@@ -64,12 +64,17 @@
 <body>
 <div class="wrapper" id="wrapper">
      <div class="empty">Служба св. Валентина</div>
+     <div class="menu">
+            <!--a href="/admin" class="btn">Админ</a-->
+            <a href="#" class="btn">Открытки</a>
+            <a href="#" class="btn">Hand-made</a>
+            <a href="#" class="btn">О проекте</a>
+            <a href="#" class="btn">Мои валентикни</a>
+
+        </div>
     <div class="simple_text">    
-        <h2>Стоимость отправки составляет <?php echo $this->price?> голоса(ов)</h2>
-        <input class="btn" type="submit" onclick="return byThisImage('/index/congratulation',<?php echo $this->price*100 ?>);">
-        <form action="/index/message" name="back_form" id="back_form">
-            <INPUT type="submit" name="back" value="Назад" class="btn">
-        </form>
+        Цей додаток допоможе вам замовити Валентику. Яка прийде по почті.
+        У вас є можливість зробити це анонімно
     </div>
  <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
     

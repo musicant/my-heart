@@ -3,6 +3,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
 <script type="text/javascript" src="/js/jquery.min.js" ></script>
+    <script type="text/javascript" src="http://jzaefferer.github.com/jquery-validation/jquery.validate.js"></script>
+    <script>
+  $(document).ready(function(){
+    $("#address_form").validate();
+  });
+  </script>
 <!-- styles needed by jScrollPane -->
 <link type="text/css" href="/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
@@ -41,14 +47,14 @@
     <div class="scroll-pane" >
         ImageId: <?php echo $this->imageId ?>
         <form action="/index/address" name="address_form" id="address_form" method="POST" class="form-inline">
-        <label for="first_name">Имя</label> <input class="span3 " type="text" id="first_name" name="first_name" value="<?php echo $this->addressParams['first_name']?>"><br/>
-        <label for="last_name">Фамилия</label> <input type="text" id="last_name" name="last_name" value="<?php echo $this->addressParams['last_name']?>"><br/>
+        <label for="first_name">Имя</label> <input class="required" class="span3 " type="text" id="first_name" name="first_name" value="<?php echo $this->addressParams['first_name']?>"><br/>
+        <label for="last_name">Фамилия</label> <input class="required" type="text" id="last_name" name="last_name" value="<?php echo $this->addressParams['last_name']?>"><br/>
         <label for="father_name">Отчество</label> <input type="text" id="father_name" name="father_name" value="<?php echo $this->addressParams['father_name']?>"><br/>
         <!--label for="country">Страна</label> <input type="text" id="country" name="country" value="<?php echo $this->addressParams['country']?>"><br/>
         <label for="state">Область</label> <input type="text" id="state" name="state" value="<?php echo $this->addressParams['state']?>"><br/-->
         <label for="city">Город</label> <input type="text" id="city" name="city" value="Черкаси"><br/>
-        <label for="street">Улица</label> <input type="text" id="street" name="street" value="<?php echo $this->addressParams['street']?>"><br/>
-        <label for="house">Дом</label> <input type="text" id="house" name="house" value="<?php echo $this->addressParams['house']?>"><br/>
+        <label for="street">Улица</label> <input class="required" type="text" id="street" name="street" value="<?php echo $this->addressParams['street']?>"><br/>
+        <label for="house">Дом</label> <input class="required" type="text" id="house" name="house" value="<?php echo $this->addressParams['house']?>"><br/>
         <label for="room">Квартира</label> <input type="text" id="room" name="room" value="<?php echo $this->addressParams['room']?>"><br/>
         <label for="zip">Индекс</label> <input type="text" id="zip" name="zip" value="<?php echo $this->addressParams['zip']?>"><br/>
         <!--label for="phone">Телефон</label> <input type="text" id="phone" name="phone" value="<?php echo $this->addressParams['phone']?>"><br/-->

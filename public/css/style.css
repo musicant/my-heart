@@ -33,6 +33,7 @@ ul li{list-style: none;}
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+    position:relative;
 }
 
 
@@ -185,6 +186,9 @@ ul li{list-style: none;}
 .footer{
     text-align:center;
     overflow:hidden;
+    position:absolute;
+    bottom:0;
+    left:184px;
 }
 #address_form{
     padding:15px;
@@ -197,4 +201,13 @@ ul li{list-style: none;}
      font-size: 28px;
     line-height: 30px;
     padding: 21px;
+}
+label.error{
+    font-family:Arial;
+    color:red;
+    font-size:12px;
+    padding-left:157px;
+}
+.simple_text{
+    padding:35px;   
 }

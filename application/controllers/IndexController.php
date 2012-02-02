@@ -107,7 +107,10 @@ class IndexController extends Zend_Controller_Action
     {
         $this->view->price = $this->_price;
     }
-
+    public function aboutAction()
+    {
+        $this->view->price = $this->_price;
+    }
 
     /*public function postCardAction()
     {
