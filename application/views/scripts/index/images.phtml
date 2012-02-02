@@ -73,11 +73,11 @@
     <div id="wrapper">
         <div class="empty">Служба св. Валентина</div>
         <div class="menu">
-            <!--a href="/admin" class="btn">Админ</a-->
-            <a href="#" class="btn">Открытки</a>
-            <a href="#" class="btn">Hand-made</a>
-            <a href="#" class="btn">О проекте</a>
-            <a href="#" class="btn">Мои валентикни</a>
+
+            <!--a href="/admin" class="btn">Админ</a>
+            <a href="#" class="btn">Мой кабинет</a-->
+            <a href="/index/images?group=1" class="btn">Открытки</a>
+            <a href="/index/images?group=2" class="btn">Hand-made</a>
 
         </div>
         <div class="thumb-left"><div class="thumb-right"><div class="thumb-center">
@@ -95,7 +95,7 @@
 
                     <div class="img_block">
                         <div class="img_inside">
-                            <a href="/index/address?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/img/<?php echo basename($images[$j]['src'],"?")?>"/></a>
+                            <a href="/index/address?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/images/<?php echo basename($images[$j]['src'],"?")?>"/></a>
                              <?php if (!empty($images[$j]['price'])){?>
                                 <div class= "img_price"><?php echo $images[$j]['price']?></div>
                              <?php }?>
