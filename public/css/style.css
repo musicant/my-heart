@@ -183,6 +183,7 @@ ul li{list-style: none;}
      padding:220px 2px 2px 2px ;
     width:20px;
 }
+<<<<<<< HEAD
 .footer{
     text-align:center;
     overflow:hidden;
@@ -210,4 +211,14 @@ label.error{
 }
 .simple_text{
     padding:35px;   
+=======
+.next2{
+-moz-border-radius: 2px 2px 2px 2px;
+    background: url("http://vkontakte.ru/images/pics/apps_slide.png") no-repeat scroll center center #E1E7ED;
+    display: block;
+    height: 116px;
+    margin: 12px 592px;
+    position: absolute;
+    width: 26px;
+>>>>>>> 4846a4abc3afe0ef45439a55080c44345715fd18
 }

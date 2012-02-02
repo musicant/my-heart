@@ -5,6 +5,7 @@
 
     <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
      <script type="text/javascript" src="/js/bootstrap.js" ></script>
+    <script type="text/javascript" src="/js/bootstrap-carusel.js" ></script>
    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
  <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 
@@ -59,6 +60,9 @@
             return true;
         }
     }
+     $(document).ready(function() {
+            $('.carousel').carousel()
+        });
 </script>
 </head>
 <body>
@@ -72,6 +76,23 @@
             <a href="#" class="btn">Мои валентикни</a>
 
         </div>
+    <div class="carousel">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/img/s_2af4ce5b.jpg"/>
+        </div>
+        <div class="item">
+            <img src="/img/s_2af4ce5b.jpg"/>
+        </div>
+        <div class="item">
+            <img src="/img/s_2af4ce5b.jpg"/>
+        </div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
     <div class="simple_text">    
         Цей додаток допоможе вам замовити Валентику. Яка прийде по почті.
         У вас є можливість зробити це анонімно
