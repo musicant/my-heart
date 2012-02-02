@@ -34,10 +34,10 @@ class IndexController extends Zend_Controller_Action
 
         $this->view->votes = $VK->getUserVotes($currentUserId);*/
 
-        $pageId = $request->getParam('page_id',0);
+        $group = $request->getParam('group',1);
         //get images list:
         $ImagesTable = new Application_Model_DbTable_Images();
-        $images = $ImagesTable->getImages($pageId);
+        $images = $ImagesTable->getImages($group);
         $this->view->images = $images;
         $this->view->debugParams = $VKParams->requestParams;
     }
@@ -95,12 +95,27 @@ class IndexController extends Zend_Controller_Action
         $message = $request->getParam('message');
         if (!empty($message)){
             $DataStorage->message = $message;
-            $this->_forward("pay");
+            $this->_forward("color");
         } else {
             $message = $DataStorage->message;
         }
 
         $this->view->message = $message;
+    }
+
+    public function colorAction()
+    {
+        $DataStorage = new Zend_Session_Namespace('dataStorage');
+        $request = $this->getRequest();
+        $color = $request->getParam('color');
+        if (!empty($color)){
+            $DataStorage->color = $color;
+            $this->_forward("pay");
+        } else {
+            $color = $DataStorage->color;
+        }
+
+        $this->view->color = $color;
     }
 
     public function payAction()
@@ -143,24 +158,27 @@ class IndexController extends Zend_Controller_Action
         $sendArray['address_first_name'] = $DataStorage->addressParams['first_name'];
         $sendArray['address_last_name'] = $DataStorage->addressParams['last_name'];
         $sendArray['address_father_name'] = $DataStorage->addressParams['father_name'];
-        $sendArray['address_country'] = $DataStorage->addressParams['country'];
-        $sendArray['address_state'] = $DataStorage->addressParams['state'];
+        $sendArray['address_country'] = ''.$DataStorage->addressParams['country'];
+        $sendArray['address_state'] = ''.$DataStorage->addressParams['state'];
         $sendArray['address_city'] = $DataStorage->addressParams['city'];
         $sendArray['address_street'] = $DataStorage->addressParams['street'];
         $sendArray['address_house'] = $DataStorage->addressParams['house'];
         $sendArray['address_room'] = $DataStorage->addressParams['room'];
         $sendArray['address_zip'] = $DataStorage->addressParams['zip'];
-        $sendArray['contact_phone'] = $DataStorage->addressParams['phone'];
-        $sendArray['send_from'] = $currentUserId;
+        $sendArray['contact_phone'] = ''.$DataStorage->addressParams['phone'];
+        $sendArray['send_from'] = ''.$currentUserId;
+        $sendArray['color'] = $DataStorage->color;
 
         $SendTable = new Application_Model_DbTable_Send();
         try {
-            $SendTable->insert($sendArray);
+            $id = $SendTable->insert($sendArray);
             if (!empty($this->_price)){
                 $VK->getMoneyFromUser($currentUserId,$this->_price);
                 $DataStorage->unsetAll();
             }
         } catch (Zend_Exception $e){
+            print_r($e->getMessage());
+            die();
 
         }
 

@@ -5,13 +5,12 @@ class Application_Model_DbTable_Images extends Zend_Db_Table_Abstract
 
     protected $_name = 'images';
 
-    public function getImages(){
+    public function getImages($group = 1){
         $select = $this->getAdapter()->select()
-                    ->from(array('i'=>$this->_name),'i.*, COUNT(m.image_id) as sent_count')
-                    ->joinLeft(array('m'=>'messages'),'m.image_id = i.image_id',array())
-                    ->group('i.image_id')
-                    ->limit()
-        ;
+                    ->from(array('i'=>$this->_name))
+                    ->joinLeft(array('s'=>'send'),'s.image_id = i.image_id',"COUNT(s.image_id) as sent_count")
+                    ->where('i.group_id=?',$group)
+                    ->group('i.image_id');
         
         return $select->query()->fetchAll();
     }
