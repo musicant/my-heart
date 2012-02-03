@@ -41,7 +41,29 @@ class IndexController extends Zend_Controller_Action
         $this->view->images = $images;
         $this->view->debugParams = $VKParams->requestParams;
     }
+    public function myvalentinesAction()
+    {
+        $request = $this->getRequest();
+        print_r();die;
+        $VKParams = new Zend_Session_Namespace('testSpace');
+        if (!isset($VKParams->requestParams) || empty($VKParams->requestParams['viewer_id']))
+            $VKParams->requestParams = $request->getParams();
 
+
+        //deprecated variable
+        /*$VKParams = new Zend_Session_Namespace('testSpace');
+        $VK = new Application_Model_VK();
+        $currentUserId = $VKParams->requestParams['user_id'];
+
+        $this->view->votes = $VK->getUserVotes($currentUserId);*/
+
+        $group = $request->getParam('group',1);
+        //get images list:
+        $ImagesTable = new Application_Model_DbTable_Images();
+        $images = $ImagesTable->getImages($group);
+        $this->view->images = $images;
+        $this->view->debugParams = $VKParams->requestParams;
+    }
     /*public function friendsAction()
     {
         // action body
@@ -110,7 +132,7 @@ class IndexController extends Zend_Controller_Action
         $color = $request->getParam('color');
         if (!empty($color)){
             $DataStorage->color = $color;
-            $this->_forward("pay");
+            $this->_forward("congratulation");
         } else {
             $color = $DataStorage->color;
         }
