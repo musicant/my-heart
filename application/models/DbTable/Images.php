@@ -15,5 +15,6 @@ class Application_Model_DbTable_Images extends Zend_Db_Table_Abstract
         return $select->query()->fetchAll();
     }
 
+   
 }
 

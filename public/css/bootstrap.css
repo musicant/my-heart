@@ -1007,6 +1007,7 @@ table {
 }
 .table thead:first-child tr th, .table thead:first-child tr td {
   border-top: 0;
+    text-align:center;
 }
 .table tbody + tbody {
   border-top: 2px solid #ddd;

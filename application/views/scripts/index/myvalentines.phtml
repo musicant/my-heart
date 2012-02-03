@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+    <script type="text/javascript" src="/js/jquery.min.js" ></script>
+    <script type="text/javascript" src="/js/jquery.lightbox-0.5.js" ></script>
+    <link rel="stylesheet" href="/css/jquery.lightbox-0.5.css" type="text/css" media="screen, projection" />
+    <script type="text/javascript" src="/js/bootstrap.js" ></script>
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+    <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript">
+         WebFontConfig = {
+             google: { families: [ 'Marck+Script::latin,cyrillic' ] }
+         };
+         (function() {
+             var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+               '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
+     <script type="text/javascript">
+
+            $(document).ready(function() {
+                     $('#gallery a').lightBox( {
+                         maxHeight: 300,
+                         maxWidth: 300,
+                         imageBtnClose: '/images/lightbox-btn-close.gif',
+                         imageBlank: '/images/lightbox-blank.gif',
+                         imageLoading: '/images/lightbox-ico-loading.gif'
+                     });
+
+            });
+
+        </script>
+</head>
+<body id="body" height="800" style="height: 800px; overflow-y:scroll;">
+<!--<?php print_r($this->debugParams) ?>-->
+<div class="wrapper" id="wrapper">
+     <div class="empty">Служба св. Валентина</div>
+    <div class="menu">
+            <!--a href="/admin" class="btn">Админ</a-->
+            <a href="/index/images?group=1" class="btn">Открытки</a>
+            <a href="/index/images?group=2" class="btn">Hand-made</a>
+            <a href="/index/myvalentines" class="btn">Мои валентинки</a>
+    </div>
+    <div class="myval_block">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Название</th>
+                    <th>Открытка</th>
+                    <th>Статус</th>
+                    <th>Ввести время оплаты</th>
+                </tr>
+            </thead>
+            <tbody>
+                <? $i = 1;?>
+                <? foreach($this->images as $image):?>
+                        <tr>
+                            <td><?=$i?></td>
+                            <td><?=substr($image['message_text'],0,30)?></td>
+                            <td><div id="gallery"><a href="/images/<?=$image['src']?>"> <img src="/images/<?=$image['src']?>" style="width:50px;"/></a></div>  </td>
+                            <td>
+
+                                <? if($image['status'] == 0){?>
+                                   <a class="btn btn-danger feel" href="javascript:void(0)">Не оплачено</a>
+                                <? }elseif($image['status'] == 1){?>
+                                    <a class="btn btn-warning feel" href="javascript:void(0)">Проверяется</a>
+                                <? }elseif($image['status'] == 2){?>
+                                    <a class="btn btn-info feel" href="javascript:void(0)">Печатается</a>
+                                <? }elseif($image['status'] == 3){?>
+                                    <a class="btn btn-success feel" href="javascript:void(0)">Готово</a>
+                                <?}?>
+                            </td>
+                            <td>
+                                <form action="/index/datepay" method="post">
+                                    <input name="date" type="text" class="span2">
+                                    <input name="send_image_id" type="hidden" value="<?=$image['send_id']?>">
+                                     <INPUT type="submit" name="back" value="Отправить" class="btn-info">
+                                </form>
+                            </td>
+                        </tr>
+                        <? $i++; ?>
+                <? endforeach; ?>
+            </tbody>
+        </table>
+        <!--img class="img_congratulation" src="/img/ded_moroz.jpg" alt=""-->
+        <div class="congratulation">
+            <p class="cong_text">
+                  Введите время указаное в чеке.
+            </p>
+            <a href="/index" class="btn">Назад</a>
+        </div>
+    </div>
+     <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+  </div>
+</body>
+</html>

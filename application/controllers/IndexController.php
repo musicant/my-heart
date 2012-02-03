@@ -22,6 +22,7 @@ class IndexController extends Zend_Controller_Action
     public function imagesAction()
     {
         $request = $this->getRequest();
+       
         $VKParams = new Zend_Session_Namespace('testSpace');
         if (!isset($VKParams->requestParams) || empty($VKParams->requestParams['viewer_id']))
             $VKParams->requestParams = $request->getParams();
@@ -44,23 +45,20 @@ class IndexController extends Zend_Controller_Action
     public function myvalentinesAction()
     {
         $request = $this->getRequest();
-        print_r();die;
         $VKParams = new Zend_Session_Namespace('testSpace');
         if (!isset($VKParams->requestParams) || empty($VKParams->requestParams['viewer_id']))
             $VKParams->requestParams = $request->getParams();
 
 
-        //deprecated variable
-        /*$VKParams = new Zend_Session_Namespace('testSpace');
-        $VK = new Application_Model_VK();
-        $currentUserId = $VKParams->requestParams['user_id'];
 
-        $this->view->votes = $VK->getUserVotes($currentUserId);*/
+        $currentUserId = $VKParams->requestParams['viewer_id'];
+
 
         $group = $request->getParam('group',1);
-        //get images list:
-        $ImagesTable = new Application_Model_DbTable_Images();
-        $images = $ImagesTable->getImages($group);
+        //get send images list:
+        $SendTable = new Application_Model_DbTable_Send();
+        $images = $SendTable->getMyvalentines($currentUserId);
+
         $this->view->images = $images;
         $this->view->debugParams = $VKParams->requestParams;
     }
@@ -115,8 +113,10 @@ class IndexController extends Zend_Controller_Action
         $DataStorage = new Zend_Session_Namespace('dataStorage');
         $request = $this->getRequest();
         $message = $request->getParam('message');
+        $author = $request->getParam('author');
         if (!empty($message)){
             $DataStorage->message = $message;
+            $DataStorage->author = $author;
             $this->_forward("color");
         } else {
             $message = $DataStorage->message;
@@ -143,6 +143,16 @@ class IndexController extends Zend_Controller_Action
     public function payAction()
     {
         $this->view->price = $this->_price;
+    }
+    public function datepayAction()
+    {
+        $request = $this->getRequest();
+        $id = $request->getParam('send_image_id');
+        $date = $request->getParam('date');
+        $SendTable = new Application_Model_DbTable_Send();
+        $SendTable->updateSend($id,$date);
+        $this->_forward('myvalentines');
+
     }
     public function aboutAction()
     {
@@ -192,6 +202,7 @@ class IndexController extends Zend_Controller_Action
         $sendArray['address_zip'] = $DataStorage->addressParams['zip'];
         $sendArray['contact_phone'] = ''.$DataStorage->addressParams['phone'];
         $sendArray['send_from'] = ''.$currentUserId;
+        $sendArray['author'] = ''.$DataStorage->author;
         $sendArray['color'] = $DataStorage->color;
 
         $SendTable = new Application_Model_DbTable_Send();

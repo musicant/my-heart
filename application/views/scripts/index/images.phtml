@@ -4,7 +4,11 @@
         <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
         <script type="text/javascript" src="/js/jquery.min.js" ></script>
         <script type="text/javascript" src="/js/jcarousellite_1.0.1.min.js" ></script>
+
+        <script type="text/javascript" src="/js/jquery.lightbox-0.5.js" ></script>
         <script type="text/javascript" src="/js/bootstrap.js" ></script>
+
+        <link rel="stylesheet" href="/css/jquery.lightbox-0.5.css" type="text/css" media="screen, projection" />
         <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
         <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
         <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
@@ -67,19 +71,31 @@
                 }
             }
     </script>
+        <script type="text/javascript">
+        
+            $(document).ready(function() {
+                   $('#gallery a').lightBox( {maxHeight: 300, maxWidth: 300});
+                $('.img_block').hover(function() {
+	            	var imgBlock = $(this);
+		                imgBlock.find('.view').show();
+
+                },function() {
+                	var imgBlock = $(this);
+    	            imgBlock.find('.view').hide();
+
+                });
+            });
+
+        </script>
 </head>
 <body id="body">
 <!--<?php print_r($this->debugParams) ?>-->
     <div id="wrapper">
         <div class="empty">Служба св. Валентина</div>
         <div class="menu">
-
-
-            <!--a href="/admin" class="btn">Админ</a>
-            <a href="#" class="btn">Мой кабинет</a-->
-            <a href="/index/images?group=1" class="btn">Открытки</a>
-            <a href="/index/images?group=2" class="btn">Hand-made</a>
-
+           <a href="/index/images?group=1" class="btn">Открытки</a>
+           <a href="/index/images?group=2" class="btn">Hand-made</a>
+           <a href="/index/myvalentines" class="btn">Мои валентинки</a>
         </div>
         <div class="thumb-left"><div class="thumb-right"><div class="thumb-center">
             <a href="javascript:void(0);" class="prev disabled" ><img src="/img/prev.jpg" alt=""></a>
@@ -95,14 +111,16 @@
                     ?>
 
                     <div class="img_block">
-                        <div class="img_inside">
+                        <div class="img_inside" >
+                            <!--a href="/images/<?php echo basename($images[$j]['src'],"?")?>" rel="lightbox">1111<img src="/images/<?php echo basename($images[$j]['src'],"?")?>" style="display:none;"/></a-->
+                            <div id="gallery"><a class="view" href="/images/<?php echo basename($images[$j]['src'],"?")?>">Просмотреть<img src="/images/<?php echo basename($images[$j]['src'],"?")?>" style="display:none;"/></a></div>
                             <a href="/index/address?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/images/<?php echo basename($images[$j]['src'],"?")?>"/></a>
                              <?php if (!empty($images[$j]['price'])){?>
                                 <div class= "img_price"><?php echo $images[$j]['price']?></div>
                              <?php }?>
                         </div>
                         <div class="send">
-                            Отправок:<?php echo $images[$j]['sent_count']?>
+                            Отправок:  <?php echo $images[$j]['sent_count']?>
                         </div>
                     </div>
                 <?php } }?>
@@ -113,7 +131,7 @@
             </div>
                <a href="javascript:void(0);" class="next disabled" ><img src="/img/next.jpg" alt=""></a>
         </div></div></div><!-- .thumb-left -->
- <div class="footer"><img src="img/footer.png" alt=""></div>
+ <div class="footer"><img src="/img/footer.png" alt=""></div>
     </div>
 
 </body>

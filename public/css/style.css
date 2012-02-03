@@ -64,21 +64,28 @@ ul li{list-style: none;}
     background:#e9e9e9;
     padding:5px;
     margin:3px;
-    width:120px;
+   
       -moz-box-shadow: 0 4px 18px #C8C8C8;
      -moz-box-shadow:rgba(200,200,200,1) 0 0 0;
    -webkit-box-shadow:rgba(200,200,200,1) 0 0 0;
    -khtml-box-shadow:rgba(200,200,200,1) 0 0 0;
    box-shadow:rgba(200,200,200,1) 0 0 0;
+     width: 167px;
+    height: 167px;
+    text-align: center;
+    position:relative;
 }
 .img_inside{
-    height: 75px;
+    height: 135px;
     background:#fff;
     padding:5px;
     position: relative;
 }
 .img_inside img{
     magrin: auto;
+}
+.img_inside img{
+    width:140px;
 }
 .img_price{
     background: url("../img/star.png") no-repeat;
@@ -96,17 +103,13 @@ ul li{list-style: none;}
 .send{
    background: none repeat scroll 0 0 #FFFFFF;
     float: left;
-    font-size: 10px;
+    font-size: 18px;
     color:#2B587A;
     text-align: center;
-    width: 120px;
+    width: 167px;
 }
 
-.img_block{
-    wight: 130px;
-    height: 100px;
-    text-align: center;
-}
+
 .img_inside{
 
 }
@@ -167,14 +170,14 @@ ul li{list-style: none;}
     font-size:20px;
 }
 .thumb-left, .thumb-right, .thumb-center{
-    height: 500px;
+    height: 655px;
 }
 .thumb-carousel{
     width:  550px;
-    height: 500px;
+    height: 550px;
 }
 .thumb-carousel ul li{
-    height: 500px !important;
+    height: 600px !important;
 }
 .thumb-carousel, .next, .prev{
     float:left;
@@ -190,6 +193,8 @@ ul li{list-style: none;}
     position:absolute;
     bottom:0;
     left:184px;
+    width:217px;
+    height:90px;
 }
 #address_form{
     padding:15px;
@@ -222,6 +227,21 @@ label.error{
     width: 26px;
 
 }
-.img_inside img{
-    width:75px;
+
+.myval_block{
+    padding:10px;
+}
+.feel{
+    font-family:Arial;
+    font-size:12px !important;
+    margin-top:13px;
+}
+.view{
+    position:absolute;
+    left:0;
+    top:0;
+    background: none repeat scroll 0 0 #fff;
+    padding:0 15px;
+    display:none;
+    font-size:16px;
 }

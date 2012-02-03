@@ -27,10 +27,13 @@
         <form action="/index/message" name="address_form" id="address_form" method="POST">
         <label for="message">Сообщение</label>
         <textarea rows="10" cols="50" name="message" id="message"c class="input-xxlarge" ><?php echo $this->message ?></textarea><br/>
+        <label for="author">Автор</label>
+        <input type="text" id="author" name="author" value="Аноним" /><br>
         <input type="submit" name="send" value="Отправить" class="btn">
+
+        </form>
         <form action="/index/address" name="back_form" id="back_form">
             <INPUT type="submit" name="back" value="Назад" class="btn">
-        </form>
         </form>
 
     </div>

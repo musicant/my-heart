@@ -1,0 +1,105 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+
+    <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+     <script type="text/javascript" src="/js/bootstrap.js" ></script>
+    <script type="text/javascript" src="/js/bootstrap-carusel.js" ></script>
+   <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+ <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript">
+         WebFontConfig = {
+             google: { families: [ 'Marck+Script::latin,cyrillic' ] }
+         };
+         (function() {
+             var wf = document.createElement('script');
+              wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+               '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
+<script type="text/javascript">
+
+    VK.init(function() {
+
+     // API initialization succeeded
+     // Your code here
+    });
+
+    var userBalance;
+    var p_url;
+    var p_price;
+    VK.api('getUserBalance',{},function(data){ userBalance = data.response;});
+
+    VK.addCallback('onBalanceChanged', balanceChanged);
+
+    function balanceChanged(balance){
+        VK.api('getUserBalance',{},function(data){
+            if (userBalance<data.response){
+                userBalance = data.response;
+                byThisImage(p_url,p_price);
+            } else {
+                userBalance = data.response;
+            }
+        });
+    };
+
+    function byThisImage(url,price){
+        p_url = url;
+        p_price = price;
+        if(userBalance<price){
+            VK.callMethod('showPaymentBox', (price-userBalance)/100);
+            return false;
+        } else {
+            window.location = url;
+            return true;
+        }
+    }
+     $(document).ready(function() {
+            $('.carousel').carousel()
+        });
+</script>
+</head>
+<body>
+<div class="wrapper" id="wrapper">
+     <div class="empty">Служба св. Валентина</div>
+     <div class="menu">
+            <!--a href="/admin" class="btn">Админ</a-->
+            <a href="#" class="btn">Открытки</a>
+            <a href="#" class="btn">Hand-made</a>
+            <a href="#" class="btn">О проекте</a>
+            <a href="#" class="btn">Мои валентикни</a>
+
+        </div>
+    <div class="carousel">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/img/s_2af4ce5b.jpg"/>
+        </div>
+        <div class="item">
+            <img src="/img/s_2af4ce5b.jpg"/>
+        </div>
+        <div class="item">
+            <img src="/img/s_2af4ce5b.jpg"/>
+        </div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+    <div class="simple_text">    
+        Цей додаток допоможе вам замовити Валентику. Яка прийде по почті.
+        У вас є можливість зробити це анонімно
+    </div>
+ <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+    
+
+
+</div>
+</body>
