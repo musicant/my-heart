@@ -22,20 +22,22 @@
         </script>
 </head>
 <body id="body" height="800" style="height: 800px; overflow-y:scroll;">
-<!--<?php print_r($this->debugParams) ?>-->
+<!--<?php //print_r($this->debugParams) ?>-->
 <div class="wrapper" id="wrapper">
      <div class="empty">Служба св. Валентина</div>
     <div>
         <!--img class="img_congratulation" src="/img/ded_moroz.jpg" alt=""-->
         <div class="congratulation">
             <p class="cong_text">
-                Вітаємо! Ваша листівка поставлена в чергу.
-                Ви можете перевірити як вона надрукована протягом двох днів в розділі "Мои валентинки"
-                Як тільки листівка буде готова вона зявиться на цій стонінці.</p>
+               Поздравляем!<br>
+                Чтобы заказать Валентинку Вам нужно перечислить <?=$this->price?> грн. на карту ПриватБанка
+                4149 6053 7351 4025. Затем внести дату оплаты, указаной в чеке, на странице <a href="/index/myvalentines"> "Мои Валентинки"</a>
+              
+            </p>
             <a href="/index" class="btn">Назад</a>
         </div>
     </div>
-     <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+     <div class="footer"><img src="/img/footer.png" alt=""></div>
   </div>
 </body>
 </html>

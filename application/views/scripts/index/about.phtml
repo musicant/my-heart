@@ -2,10 +2,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
-
+<script type="text/javascript" src="/js/jquery.min.js" ></script>
     <script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
      <script type="text/javascript" src="/js/bootstrap.js" ></script>
-    <script type="text/javascript" src="/js/bootstrap-carusel.js" ></script>
+
    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
  <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 
@@ -23,83 +23,57 @@
                 s.parentNode.insertBefore(wf, s);
             })();
         </script>
-<script type="text/javascript">
 
-    VK.init(function() {
-
-     // API initialization succeeded
-     // Your code here
-    });
-
-    var userBalance;
-    var p_url;
-    var p_price;
-    VK.api('getUserBalance',{},function(data){ userBalance = data.response;});
-
-    VK.addCallback('onBalanceChanged', balanceChanged);
-
-    function balanceChanged(balance){
-        VK.api('getUserBalance',{},function(data){
-            if (userBalance<data.response){
-                userBalance = data.response;
-                byThisImage(p_url,p_price);
-            } else {
-                userBalance = data.response;
-            }
-        });
-    };
-
-    function byThisImage(url,price){
-        p_url = url;
-        p_price = price;
-        if(userBalance<price){
-            VK.callMethod('showPaymentBox', (price-userBalance)/100);
-            return false;
-        } else {
-            window.location = url;
-            return true;
-        }
-    }
-     $(document).ready(function() {
-            $('.carousel').carousel()
-        });
-</script>
 </head>
 <body>
 <div class="wrapper" id="wrapper">
      <div class="empty">Служба св. Валентина</div>
      <div class="menu">
-            <!--a href="/admin" class="btn">Админ</a-->
-            <a href="#" class="btn">Открытки</a>
-            <a href="#" class="btn">Hand-made</a>
-            <a href="#" class="btn">О проекте</a>
-            <a href="#" class="btn">Мои валентикни</a>
+           <a href="/index/images?group=1" class="btn">Открытки</a>
+           <a href="/index/images?group=2" class="btn">Hand-made</a>
+           <a href="/index/myvalentines" class="btn">Мои валентинки</a>
+           <a href="/index/about" class="btn">О проекте</a>
+     </div>
+   
+    <div class="simple_text">
+        <img src="/img/konv_photo.jpg" alt="" style="float:left; width:200px; margin:0 10px 10px 10px;">
+       Служба Св.Валентина стремится сделать праздник всех влюбленных по-настоящему особенным.
+       К Вашим услугам широкий выбор Валентинок, на которые можно добавить собственный стишок,
+       фразу или другой вариант поздравления с праздником. Все это мы печатаем в профессиональной типографии 
+       специально для Вас. А получают эту красотенюшку ваши любимые в ярких, необычных конвертах.
 
-        </div>
-    <div class="carousel">
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="/img/s_2af4ce5b.jpg"/>
-        </div>
-        <div class="item">
-            <img src="/img/s_2af4ce5b.jpg"/>
-        </div>
-        <div class="item">
-            <img src="/img/s_2af4ce5b.jpg"/>
-        </div>
+        <br>
+        <br>
+        <br>
+        <img src="/img/hand.jpg" alt="" style="float:right; width:200px; margin:0 10px 10px 10px;">
+        Также мы предлагаем порадовать своих половинок Валентинками, сделанными вручную.
+        На обратной стороне, если желаете, напишем оригинальный, придуманный Вами, текст.
+        Чуточку фантазии и ваши любимые окажутся на седьмом небе от счастья.
+
+           <br><br><br>
+        <img src="/img/how6.png" alt="" style="float:left; width:200px; margin:0 10px 10px 10px;">
+        Оплату нужно осуществить через терминал ПриватБанка. После чего останется внести дату, указанную в чеке в раздел «Мои Валентинки» и тогда необыкновенное письмо, наполненное вашей любовь и фантазией начнет свой путь.
+
+           <br><br><br>
+        Проявить свою красивую любовь очень просто!
     </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div>
-    <div class="simple_text">    
-        Цей додаток допоможе вам замовити Валентику. Яка прийде по почті.
-        У вас є можливість зробити це анонімно
-    </div>
- <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+ <div class="footer"><img src="/img/footer.png" alt=""></div>
     
 
 
 </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28937815-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
+</html>

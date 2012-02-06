@@ -39,7 +39,7 @@
         </script>
 </head>
 <body id="body" height="800" style="height: 800px; overflow-y:scroll;">
-<!--<?php print_r($this->debugParams) ?>-->
+<!--<?php //print_r($this->debugParams) ?>-->
 <div class="wrapper" id="wrapper">
      <div class="empty">Служба св. Валентина</div>
     <div class="menu">
@@ -48,6 +48,7 @@
             <a href="/index/images?group=2" class="btn">Hand-made</a>
             <a href="/index/myvalentines" class="btn">Мои валентинки</a>
     </div>
+    <? if(!empty($this->images)){?>
     <div class="myval_block">
         <table class="table">
             <thead>
@@ -83,6 +84,7 @@
                                     <input name="date" type="text" class="span2">
                                     <input name="send_image_id" type="hidden" value="<?=$image['send_id']?>">
                                      <INPUT type="submit" name="back" value="Отправить" class="btn-info">
+                                    <span class="date_ex">02.02.2012 13:23:34</span>
                                 </form>
                             </td>
                         </tr>
@@ -98,7 +100,23 @@
             <a href="/index" class="btn">Назад</a>
         </div>
     </div>
-     <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+    <? }else{?>
+        <div class="myval_block_empty">У вас пока нет валентинок</div>
+    <?}?>
+     <div class="footer"><img src="/img/footer.png" alt=""></div>
   </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28937815-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>

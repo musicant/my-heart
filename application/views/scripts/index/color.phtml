@@ -16,7 +16,7 @@
 
 </head>
 <body>
-<!--<?php print_r($this->debugParams) ?>-->
+<!--<?php //print_r($this->debugParams) ?>-->
 <div class="wrapper" id="wrapper">
      <div class="empty">Служба св. Валентина</div>
 <h3>Выберите цвет</h3>
@@ -24,8 +24,8 @@
     <div >
     <div class="scroll-pane" >
         <form action="/index/color" name="address_form" id="address_form" method="POST">
-        <label for="red">Красный</label><input id="red" type="radio" name="color" value="red" <?php echo ($this->color=='red')?'checked="checked"':''?>><br/>
-        <label for="pink">Розовый</label><input id="pink" type="radio" name="color" value="pink" <?php echo ($this->color=='pink')?'checked="checked"':''?>>
+        <input id="red" type="radio" name="color" value="red" <?php echo ($this->color=='red')?'checked="checked"':''?>> <label for="red"><img src="/img/konvert_red_small.jpg" alt="" style="width:350px;"></label><br/>
+        <input id="pink" type="radio" name="color" value="pink" <?php echo ($this->color=='pink')?'checked="checked"':''?>><label for="pink"><img src="/img/konvert_pink_small.jpg" alt="" style="width:350px;"></label>
         <input type="submit" name="send" value="Отправить" class="btn">
         </form>
         <form action="/index/message" name="back_form" id="back_form">
@@ -35,7 +35,20 @@
     </div>
     </div>
 <div style="clear:both;"></div>
-    <div class="footer"><img src="http://my-heart/img/footer.png" alt=""></div>
+    <div class="footer"><img src="/img/footer.png" alt=""></div>
   </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28937815-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>

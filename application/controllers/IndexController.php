@@ -2,7 +2,7 @@
 
 class IndexController extends Zend_Controller_Action
 {
-    private $_price = 2;
+    //private $_price = 2;
 
     public function init()
     {
@@ -22,25 +22,25 @@ class IndexController extends Zend_Controller_Action
     public function imagesAction()
     {
         $request = $this->getRequest();
-       
-        $VKParams = new Zend_Session_Namespace('testSpace');
-        if (!isset($VKParams->requestParams) || empty($VKParams->requestParams['viewer_id']))
-            $VKParams->requestParams = $request->getParams();
-
-
-        //deprecated variable
-        /*$VKParams = new Zend_Session_Namespace('testSpace');
-        $VK = new Application_Model_VK();
-        $currentUserId = $VKParams->requestParams['user_id'];
-
-        $this->view->votes = $VK->getUserVotes($currentUserId);*/
+        $params = $request->getParams();
+        session_start();
+        if(isset($params['viewer_id'])){
+            $currentUserId = $params['viewer_id'];
+            $_SESSION['viewer_id'] =$currentUserId;
+        }else{
+            $currentUserId = $_SESSION['viewer_id'] ;
+        }
+        
 
         $group = $request->getParam('group',1);
         //get images list:
         $ImagesTable = new Application_Model_DbTable_Images();
         $images = $ImagesTable->getImages($group);
         $this->view->images = $images;
-        $this->view->debugParams = $VKParams->requestParams;
+      
+
+        $this->view->currentUserId = $currentUserId;
+
     }
     public function myvalentinesAction()
     {
@@ -98,6 +98,9 @@ class IndexController extends Zend_Controller_Action
 
         if (!empty($imageId)){
             $DataStorage->imageId = $imageId;
+            $ImagesTable = new Application_Model_DbTable_Images();
+            $image = $ImagesTable->getImage($imageId);
+            $DataStorage->price = $image['price'];
         } else {
             $imageId = $DataStorage->imageId;
         }
@@ -204,6 +207,7 @@ class IndexController extends Zend_Controller_Action
         $sendArray['send_from'] = ''.$currentUserId;
         $sendArray['author'] = ''.$DataStorage->author;
         $sendArray['color'] = $DataStorage->color;
+        $sendArray['price'] = $DataStorage->price;
 
         $SendTable = new Application_Model_DbTable_Send();
         try {
@@ -217,7 +221,16 @@ class IndexController extends Zend_Controller_Action
             die();
 
         }
+        $to      = 'tepalenko@gmail.com';
+        $subject = 'Valentine';
 
+        $headers = 'From: webmaster@example.com' . "\r\n" .
+                   'Reply-To: webmaster@example.com' . "\r\n" .
+                   'X-Mailer: PHP/';
+
+
+	 mail($to, $subject, 'Заказ принят', $headers);
+         $this->view->price = $DataStorage->price;
 
     }
 

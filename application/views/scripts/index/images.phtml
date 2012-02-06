@@ -42,39 +42,31 @@
                 // Your code here
             });
             VK.callMethod("resizeWindow", 680, 890);
-                var userBalance;
-                var p_url;
-                var p_price;
-                VK.api('getUserBalance',{},function(data){ userBalance = data.response; });
-                VK.addCallback('onBalanceChanged', balanceChanged);
+            function post_photo(photo_id){
+                    //alert("<?=$this->currentUserId?>");
+                //VK.callMethod("resizeWindow", 680, 890);
+                    VK.api("wall.savePost",{
+                    'wall_id':"<?=$this->currentUserId?>",
+                    'post_id':'tszafs21123t',
+                    'message':'Хочу настоящую Валентинку, а не на стенку http://vk.com/app2711477',
+                    'photo_id':photo_id
+                }, function(data) { VK.callMethod("saveWallPost", data.response.post_hash); });
 
-                function balanceChanged(balance){
-                    VK.api('getUserBalance',{},function(data){
-                        if (userBalance<data.response){
-                            userBalance = data.response;
-                            byThisImage(p_url,p_price);
-                        } else {
-                            userBalance = data.response;
-                        }
-                    });
-            };
-
-            function byThisImage(url,price){
-                p_url = url;
-                p_price = price;
-                if(userBalance<price){
-                    VK.callMethod('showPaymentBox', (price-userBalance)/100);
-                    return false;
-                } else {
-                    window.location = url;
-                    return true;
-                }
             }
+
+
     </script>
         <script type="text/javascript">
         
             $(document).ready(function() {
-                   $('#gallery a').lightBox( {maxHeight: 300, maxWidth: 300});
+                   $('#gallery a').lightBox( {
+                       maxHeight: 300, maxWidth: 300,
+                       imageBtnClose: '/images/lightbox-btn-close.gif',
+                       imageBlank: '/images/lightbox-blank.gif',
+                       imageLoading: '/images/lightbox-ico-loading.gif',
+                       imageBtnPrev:'/images/lightbox-btn-prev.gif',			// (string) Path and the name of the prev button image
+			           imageBtnNext:'/images/lightbox-btn-next.gif'
+                   });
                 $('.img_block').hover(function() {
 	            	var imgBlock = $(this);
 		                imgBlock.find('.view').show();
@@ -96,9 +88,10 @@
            <a href="/index/images?group=1" class="btn">Открытки</a>
            <a href="/index/images?group=2" class="btn">Hand-made</a>
            <a href="/index/myvalentines" class="btn">Мои валентинки</a>
+            <a href="/index/about" class="btn">О проекте</a>
         </div>
         <div class="thumb-left"><div class="thumb-right"><div class="thumb-center">
-            <a href="javascript:void(0);" class="prev disabled" ><img src="/img/prev.jpg" alt=""></a>
+            <a href="javascript:void(0);" class="prev disabled" ><img src="/img/prev.png" alt=""></a>
             <div class="thumb-carousel">
                <ul>
                 <?
@@ -113,11 +106,11 @@
                     <div class="img_block">
                         <div class="img_inside" >
                             <!--a href="/images/<?php echo basename($images[$j]['src'],"?")?>" rel="lightbox">1111<img src="/images/<?php echo basename($images[$j]['src'],"?")?>" style="display:none;"/></a-->
-                            <div id="gallery"><a class="view" href="/images/<?php echo basename($images[$j]['src'],"?")?>">Просмотреть<img src="/images/<?php echo basename($images[$j]['src'],"?")?>" style="display:none;"/></a></div>
-                            <a href="/index/address?image_id=<?php echo $images[$j]['image_id']?>" onclick="return byThisImage('/index/friends?image_id=<?php echo $images[$j]['image_id']?>',<?php echo $images[$j]['price']*100?>);"><img src="/images/<?php echo basename($images[$j]['src'],"?")?>"/></a>
-                             <?php if (!empty($images[$j]['price'])){?>
-                                <div class= "img_price"><?php echo $images[$j]['price']?></div>
-                             <?php }?>
+                           <a class="view_want"  href="javascript:void(0);" onclick="return post_photo('<?if(!empty($images[$j]['photo_id'])){ echo $images[$j]['photo_id'];}else{echo '161804409_277659693';}?>');">Хочу</a>
+                            <a class="view" title="<?php echo $images[$j]['title']?>" href="/index/address?image_id=<?php echo $images[$j]['image_id']?>">Заказать</a>
+                            <span class="view_price">Цена: <?php echo $images[$j]['price']?> грн.</span>
+                            <div id="gallery"><a href="/images/<?php echo basename($images[$j]['src'],"?")?>" ><img src="/images/<?php echo basename($images[$j]['src'],"?")?>"/></a></div>
+                             
                         </div>
                         <div class="send">
                             Отправок:  <?php echo $images[$j]['sent_count']?>
@@ -129,10 +122,22 @@
                     
               </ul>
             </div>
-               <a href="javascript:void(0);" class="next disabled" ><img src="/img/next.jpg" alt=""></a>
+               <a href="javascript:void(0);" class="next disabled" ><img src="/img/next.png" alt=""></a>
         </div></div></div><!-- .thumb-left -->
  <div class="footer"><img src="/img/footer.png" alt=""></div>
     </div>
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28937815-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
