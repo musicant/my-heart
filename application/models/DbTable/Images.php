@@ -10,7 +10,8 @@ class Application_Model_DbTable_Images extends Zend_Db_Table_Abstract
                     ->from(array('i'=>$this->_name))
                     ->joinLeft(array('s'=>'send'),'s.image_id = i.image_id',"COUNT(s.image_id) as sent_count")
                     ->where('i.group_id=?',$group)
-                    ->group('i.image_id');
+                    ->group('i.image_id')
+                    ->order('order');
 
         return $select->query()->fetchAll();
     }

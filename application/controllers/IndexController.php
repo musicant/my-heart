@@ -22,6 +22,10 @@ class IndexController extends Zend_Controller_Action
     public function imagesAction()
     {
         $request = $this->getRequest();
+         $VKParams = new Zend_Session_Namespace('testSpace');
+        if (!isset($VKParams->requestParams) || empty($VKParams->requestParams['viewer_id']))
+            $VKParams->requestParams = $request->getParams();
+        
         $params = $request->getParams();
         session_start();
         if(isset($params['viewer_id'])){

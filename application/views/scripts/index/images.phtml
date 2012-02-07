@@ -107,9 +107,9 @@
                         <div class="img_inside" >
                             <!--a href="/images/<?php echo basename($images[$j]['src'],"?")?>" rel="lightbox">1111<img src="/images/<?php echo basename($images[$j]['src'],"?")?>" style="display:none;"/></a-->
                            <a class="view_want"  href="javascript:void(0);" onclick="return post_photo('<?if(!empty($images[$j]['photo_id'])){ echo $images[$j]['photo_id'];}else{echo '161804409_277659693';}?>');">Хочу</a>
-                            <a class="view" title="<?php echo $images[$j]['title']?>" href="/index/address?image_id=<?php echo $images[$j]['image_id']?>">Заказать</a>
+                            <a class="view"  href="/index/address?image_id=<?php echo $images[$j]['image_id']?>">Заказать</a>
                             <span class="view_price">Цена: <?php echo $images[$j]['price']?> грн.</span>
-                            <div id="gallery"><a href="/images/<?php echo basename($images[$j]['src'],"?")?>" ><img src="/images/<?php echo basename($images[$j]['src'],"?")?>"/></a></div>
+                            <div id="gallery"><a title="<?php echo $images[$j]['title']?>" href="/images/<?php echo basename($images[$j]['src'],"?")?>" ><img src="/images/<?php echo basename($images[$j]['src'],"?")?>"/></a></div>
                              
                         </div>
                         <div class="send">
